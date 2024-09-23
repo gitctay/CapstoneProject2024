@@ -8,6 +8,7 @@ requests = "*"
 selenium = "*"
 bs4 = "*"
 pytest = "*"
+discord = "*"
 
 [dev-packages]
 
