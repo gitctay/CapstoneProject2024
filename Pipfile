@@ -7,6 +7,7 @@ name = "pypi"
 requests = "*"
 selenium = "*"
 bs4 = "*"
+pytest = "*"
 
 [dev-packages]
 
