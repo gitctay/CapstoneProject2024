@@ -9,6 +9,7 @@ selenium = "*"
 bs4 = "*"
 pytest = "*"
 discord = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
