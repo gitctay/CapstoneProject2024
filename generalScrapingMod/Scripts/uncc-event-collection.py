@@ -1,25 +1,26 @@
+from selenium.webdriver.remote.remote_connection import LOGGER
+
+from loggingTest import log_setup
+
+
+from selenium.common import ElementNotVisibleException
 from selenium.webdriver import Chrome
 from selenium.common.exceptions import TimeoutException,NoSuchElementException,NoSuchAttributeException,ElementClickInterceptedException
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
-days_of_week = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+
 MAIN_SITE = "https://campusevents.charlotte.edu/"
 SUB_SITE = "https://campusevents.charlotte.edu/calendar"
-driver = Chrome()
-wait_for_element = WebDriverWait(driver, 10)
 
-
-def find_element_casual(driver:WebDriver | WebElement,locator,locator_string):
+def find_element_casual(driver: WebDriver | WebElement, locator, locator_string):
     try:
-        element = driver.find_element(locator,locator_string)
+        element = driver.find_element(locator, locator_string)
         return element
     except NoSuchElementException:
         return None
-
 
 
 def load_site():
@@ -28,13 +29,12 @@ def load_site():
     except TimeoutException:
         print(f"Loading took too long for site {MAIN_SITE}")
 
-    # try:
-    #     upcoming_events = driver.find_element(By.XPATH,".//a[contains(text(),'Upcoming')]")
-    #     upcoming_events.click()
-    # except (NoSuchElementException,ElementClickInterceptedException) as ex:
-    #     #log a warning here
-    #     print(f"There was an exception {ex}")
 
+def run_event_collection(logger):
+    logger = log_setup('event_collection_log.txt')
+    global driver
+    driver = Chrome()
+    wait_for_element = WebDriverWait(driver, 10)
     events = driver.find_elements(By.XPATH, ".//div[contains(@class,'em-event-instance')]")
     if len(events) == 0:
         print(f"No events found on site {SUB_SITE}")
@@ -46,14 +46,16 @@ def load_site():
                 event_a_tag = event.find_element(By.XPATH,'.//div[@class="em-card_text"]//h3/a')
                 event_title = event_a_tag.text.strip()
                 event_date = event.find_element(By.XPATH,"(.//p[@class='em-card_event-text'])[1]").text.strip()
+                #all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event,By.XPATH,'.//p[@class="em-card_event-text"][2]')
                 if event_meeting is None:
                     print("The event meeting location is not found Defaulting to None")
                 else:
-                    print(event_meeting.text)
+                    print(f'The event {event_title} will be held at {event_date} at {str(event_meeting.text)}')
+            except (ElementNotVisibleException,NoSuchElementException) as ex:
+                logger.error(f'There was an issue grabbing an element because the element is not visible or does not exist --> {ex}')
             except Exception as ex:
-                print(ex)
-load_site()
+                logger.error(f'There was an issue grabbing an element because of an unknown exception {ex}')
 
 
 
