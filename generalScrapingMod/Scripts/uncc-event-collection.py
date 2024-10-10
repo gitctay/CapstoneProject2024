@@ -49,11 +49,6 @@ def run_event_collection(logger):
                 event_date = event.find_element(By.XPATH,"(.//p[@class='em-card_event-text'])[1]").text.strip()
                 #all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event,By.XPATH,'.//p[@class="em-card_event-text"][2]')
-                # event_dict["event_text"] = event_text
-                # event_dict["event_title"] = event_title
-                # event_dict["event_date"] = event_date
-                # event_dict["event_meeting"] = event_meeting
-                # event_dict["event_a_tag"] = event_a_tag
                 event_dict = {
                     "event_text": event_text,
                     "event_title": event_title,
