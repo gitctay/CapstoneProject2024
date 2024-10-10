@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 
+from pymongo_insert import insert_event_data
 
 MAIN_SITE = "https://campusevents.charlotte.edu/"
 SUB_SITE = "https://campusevents.charlotte.edu/calendar"
@@ -48,16 +49,22 @@ def run_event_collection(logger):
                 event_date = event.find_element(By.XPATH,"(.//p[@class='em-card_event-text'])[1]").text.strip()
                 #all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event,By.XPATH,'.//p[@class="em-card_event-text"][2]')
+                event_dict = {
+                    "event_text": event_text,
+                    "event_title": event_title,
+                    "event_date": event_date,
+                    "event_meeting": event_meeting,
+                    "event_a_tag": event_a_tag
+                }
                 if event_meeting is None:
                     print("The event meeting location is not found Defaulting to None")
                 else:
                     print(f'The event {event_title} will be held at {event_date} at {str(event_meeting.text)}')
+
+                insert_event_data(event_dict)
+
             except (ElementNotVisibleException,NoSuchElementException) as ex:
                 logger.error(f'There was an issue grabbing an element because the element is not visible or does not exist --> {ex}')
             except Exception as ex:
                 logger.error(f'There was an issue grabbing an element because of an unknown exception {ex}')
-
-
-
-
 
