@@ -1,14 +1,21 @@
+import os
+from dotenv import load_dotenv
 import discord
 from sys import argv  # So we can get the runtime params
 
+# Load the environment variables from the .env file
+load_dotenv()
 
 class MyClient(discord.Client):
-    bot_key = argv[1]  # Zero is the name of the script
+    bot_key = os.getenv("Discord_Bot_Token")  # Fetch the token from the environment
 
     gym_status = {
-        "status": "open",
+        "urec status": "open",
         "hours": "6 AM - 10 PM",
-        "capacity": "65%"
+        "capacity": "65%",
+        "belk status": "open",
+        "hours": "7 AM - 8 PM",
+        "capacity": "55%"
     }
 
     parking_status = {
