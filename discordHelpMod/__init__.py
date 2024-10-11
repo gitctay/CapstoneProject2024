@@ -10,12 +10,9 @@ class MyClient(discord.Client):
     bot_key = os.getenv("Discord_Bot_Token")  # Fetch the token from the environment
 
     gym_status = {
-        "urec status": "open",
+        "status": "open",
         "hours": "6 AM - 10 PM",
-        "capacity": "65%",
-        "belk status": "open",
-        "hours": "7 AM - 8 PM",
-        "capacity": "55%"
+        "capacity": "65%"
     }
 
     parking_status = {
