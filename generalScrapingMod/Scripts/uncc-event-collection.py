@@ -7,9 +7,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from generalScrapingMod.Scripts.logging_setup import log_setup
+from pymongo_insert import insert_event_data
 
 MAIN_SITE = "https://campusevents.charlotte.edu/"
-SUB_SITE = "https://campusevents.charlotte.edu/calendar"
+SUB_SITE = "https://campusevents.charlotte.edu/calendar/week?card_size=small&order=date&experience="
 
 
 def find_element_casual(driver: WebDriver | WebElement, locator, locator_string):
@@ -57,19 +58,23 @@ def run_event_collection():
                 event_date = event.find_element(By.XPATH, "(.//p[@class='em-card_event-text'])[1]").text.strip()
                 # all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event, By.XPATH, './/p[@class="em-card_event-text"][2]')
+
+                if event_meeting is None:
+                    logger.info("The event meeting location is not found Defaulting to None")
+                    event_meeting = "None"
+                else:
+                    logger.info(f'The event {event_title} will be held at {event_date} at {(event_meeting)}')
+                    event_meeting = event_meeting.get_attribute('innerText').strip()
+
                 event_dict = {
-                    "event_text": event_text,
                     "event_title": event_title,
                     "event_date": event_date,
                     "event_meeting": event_meeting,
                     "event_link": event_link
                 }
-                if event_meeting is None:
-                    logger.info("The event meeting location is not found Defaulting to None")
-                else:
-                    logger.info(f'The event {event_title} will be held at {event_date} at {str(event_meeting.text)}')
 
-                # insert_event_data(event_dict)
+
+                insert_event_data(event_dict)
 
             except (ElementNotVisibleException, NoSuchElementException) as ex:
                 logger.error(
@@ -85,6 +90,9 @@ def run_event_collection():
     return True
 
 
+
+
 def test_event_collect():
     assert run_event_collection() == True
 
+run_event_collection()

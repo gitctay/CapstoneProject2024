@@ -9,8 +9,7 @@ def insert_event_data(event_dict):
         "event_title": event_dict.get("event_title"),
         "event_date": event_dict.get("event_date"),
         "event_meeting": event_dict.get("event_meeting"),
-        "event_text": event_dict.get("event_text"),
-        "event_link": event_dict.get("event_link"),
+        "event_link": event_dict.get("event_link")
     }
 
     event_data_table.insert_one(item)
