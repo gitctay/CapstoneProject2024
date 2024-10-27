@@ -10,6 +10,7 @@ bs4 = "*"
 pytest = "*"
 discord = "*"
 python-dateutil = "*"
+pymongo = "*"
 
 [dev-packages]
 
