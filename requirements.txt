@@ -13,4 +13,4 @@ packaging~=24.1
 discord~=2.3.2
 discord.py~=2.4.0
 selenium~=4.25.0
-pymongo~=4.9.1
+pymongo~=4.10.1

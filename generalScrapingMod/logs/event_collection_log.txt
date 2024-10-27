@@ -1,0 +1,80 @@
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Sun, Oct 27, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S SOCCER AT RICE will be held at Sun, Oct 27, 2024 | 1am to 3am at Houston, Texas
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S VOLLEYBALL VS FLORIDA ATLANTIC will be held at Sun, Oct 27, 2024 | 12pm to 2pm at Charlotte, N.C., Halton Arena
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S VOLLEYBALL VS FLORIDA ATLANTIC will be held at Sun, Oct 27, 2024 | 2pm to 4pm at Charlotte, N.C., Halton Arena
+INFO:generalScrapingMod.Scripts.logging_setup:The event FALL 2024 DANCE CONCERT will be held at Sun, Oct 27, 2024 | 2pm at Robinson Hall, Anne R. Belk Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "HALLOWEENTOWN" will be held at Sun, Oct 27, 2024 | 2pm at Popp Martin Student Union, Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRAP" will be held at Sun, Oct 27, 2024 | 5pm at Popp Martin Student Union, Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS UAB will be held at Sun, Oct 27, 2024 | 7pm to 9pm at Charlotte, N.C., Transamerica Field
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "HALLOWEENTOWN" will be held at Sun, Oct 27, 2024 | 9pm at Popp Martin Student Union, Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Mon, Oct 28, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event SDS SEMINAR: CONSULTING AS A CAREER AT FDM GROUP will be held at Mon, Oct 28, 2024 | at Dubois Center, UNC Charlotte, 320 E 9th St, Charlotte, NC 28202, 502
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Mon, Oct 28, 2024 | 11am to 1pm at king, 210
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event FORMATTING AND SUBMITTING YOUR THESIS OR DISSERTATION will be held at Mon, Oct 28, 2024 | 12pm to 1pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event QUESTION, PERSUADE, REFER SUICIDE PREVENTION TRAINING FOR FACULTY/STAFF will be held at Mon, Oct 28, 2024 | 2pm to 3:30pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event IMMIGRATION FORUM will be held at Mon, Oct 28, 2024 | 2:30pm to 3:20pm at College of Health & Human Services (CHHS), 281
+INFO:generalScrapingMod.Scripts.logging_setup:The event IMMIGRATION FORUM will be held at Mon, Oct 28, 2024 | 2:30pm to 3:20pm at College of Health & Human Services (CHHS), 281
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINDING FOCUS ROUND 2 will be held at Mon, Oct 28, 2024 | 3pm to 4pm at Popp Martin Student Union, 267
+INFO:generalScrapingMod.Scripts.logging_setup:The event WHAT DO I DO WITH MY HANDS? NONVERBAL COMMUNICATION IN PRESENTATIONS will be held at Mon, Oct 28, 2024 | 3:30pm to 4:30pm at Atkins Library, 146
+INFO:generalScrapingMod.Scripts.logging_setup:The event AL-ANON MEETING will be held at Mon, Oct 28, 2024 | 4pm to 5pm at Waddell Center for Student Health and Wellbeing, 107
+INFO:generalScrapingMod.Scripts.logging_setup:The event SDS SEMINAR: CONSULTING AS A CAREER AT FDM GROUP will be held at Mon, Oct 28, 2024 | 4pm to 5pm at Dubois Center, UNC Charlotte, 320 E 9th St, Charlotte, NC 28202, 502
+INFO:generalScrapingMod.Scripts.logging_setup:The event WOMEN IN BUSINESS OCTOBER COFFEE HOUR will be held at Mon, Oct 28, 2024 | 5:30pm to 6:30pm at Cone University Center, 210
+INFO:generalScrapingMod.Scripts.logging_setup:The event BOO'D UP will be held at Mon, Oct 28, 2024 | 6pm to 8:30pm at Cone University Center, After Hours
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO THE GRADUATE AND POSTDOCTORAL WRITING CENTER will be held at Mon, Oct 28, 2024 | 7pm to 7:30pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Tue, Oct 29, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO GOOGLE SLIDES will be held at Tue, Oct 29, 2024 | 9am to 10am at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event PART 3: CANVAS STUDIO - EXPLORING VIDEO INSIGHTS will be held at Tue, Oct 29, 2024 | 10am to 11am at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE RECOVERY PROGRAM WEEKLY DROP-IN will be held at Tue, Oct 29, 2024 | 2pm to 4:30pm at Waddell Center for Student Health and Wellbeing, Room 107
+INFO:generalScrapingMod.Scripts.logging_setup:The event COPYRIGHT QUICK BITES: DISSERTATION WORKSHOP will be held at Tue, Oct 29, 2024 | 3pm to 4pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event FALLING INTO WELLNESS: REST & RESET - GRAD STUDENT SUPPORT SPACE will be held at Tue, Oct 29, 2024 | 3pm to 4pm at Atkins 146 9201 University City Blvd, Charlotte, NC 28223, Atkins 146
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event COMPLETING AN IRB PROTOCOL APPLICATION will be held at Tue, Oct 29, 2024 | 4:30pm to 6pm at Cameron, Cameron Building 303
+INFO:generalScrapingMod.Scripts.logging_setup:The event TRUMAN SCHOLARSHIP VIRTUAL WEBINAR will be held at Tue, Oct 29, 2024 | 5pm to 6:30pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Wed, Oct 30, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event SAND VOLLEYBALL will be held at Wed, Oct 30, 2024 | at University Recreation Center, Tennis Courts
+INFO:generalScrapingMod.Scripts.logging_setup:The event WORKING WITH GOOGLE FORMS will be held at Wed, Oct 30, 2024 | 9am to 10am at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event 2024 W+GRA LEADERSHIP CAFE will be held at Wed, Oct 30, 2024 | 9:30am to 1:30pm at Popp Martin Student Union
+INFO:generalScrapingMod.Scripts.logging_setup:The event COMMENCEMENT KICK-OFF will be held at Wed, Oct 30, 2024 | 11am to 2pm at Popp Martin Student Union, Barnes & Noble Charlotte
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NETWORKING ACROSS CULTURES will be held at Wed, Oct 30, 2024 | 11am to 12pm at Atkins Library, Atkins 146
+INFO:generalScrapingMod.Scripts.logging_setup:The event SAFER HALLOWEEN will be held at Wed, Oct 30, 2024 | 11am to 1:30pm at Popp Martin Student Union
+INFO:generalScrapingMod.Scripts.logging_setup:The event GROW WITH CHESS: PLANT A SEED POSTPONED FOR WEATHER will be held at Wed, Oct 30, 2024 | 11:30am to 1pm at Colvard, Under the breezeway.
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Oct 30, 2024 | 12pm to 1:30pm at Popp Martin Student Union, 261
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Oct 30, 2024 | 12pm to 1:30pm at College of Health & Human Services (CHHS), 285
+INFO:generalScrapingMod.Scripts.logging_setup:The event SAFER DRINKING: BYSTANDER INTERVENTION will be held at Wed, Oct 30, 2024 | 12pm at Popp Martin Student Union, 200
+INFO:generalScrapingMod.Scripts.logging_setup:The event YOUR CHOICES MATTER: ACADEMIC PUBLISHING SURVIVAL GUIDE will be held at Wed, Oct 30, 2024 | 12pm to 1pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event SUPPORTING STUDENTS AS DIFFICULT EVENTS IMPACT OUR WORLD will be held at Wed, Oct 30, 2024 | 1pm to 2pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event SCHOOL OF ARCHITECTURE COLLOQUIUM SERIES: MATTHEW GIN will be held at Wed, Oct 30, 2024 | 1:15pm to 2:15pm at Storrs, Storrs 290
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event AA MEETINGS will be held at Wed, Oct 30, 2024 | 4pm to 5pm at Waddell Center for Student Health and Wellbeing, 107
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event PROCRASTINATION WORKSHOP SERIES will be held at Wed, Oct 30, 2024 | 4pm to 5pm at Visualization Lab, J. Murrey Atkins Library, 2nd floor
+INFO:generalScrapingMod.Scripts.logging_setup:The event NATIONALLY COMPETITIVE AWARDS FOR NINERS IN STEM will be held at Wed, Oct 30, 2024 | 5pm to 6:30pm at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL VS NEWBERRY will be held at Wed, Oct 30, 2024 | 6:30pm to 8:30pm at Charlotte, N.C., Halton Arena
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S SOCCER VS TEMPLE will be held at Wed, Oct 30, 2024 | 7pm to 9pm at Charlotte, N.C., Transamerica Field
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Thu, Oct 31, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event MANAGING YOUR GOOGLE STORAGE will be held at Thu, Oct 31, 2024 | 9am to 10am at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event LASER CUTTER TRAINING will be held at Thu, Oct 31, 2024 | 10am to 11am at Area 49 Makerspace, Atkins Library 2nd Floor
+INFO:generalScrapingMod.Scripts.logging_setup:The event CARVEY CNC ROUTER TRAINING will be held at Thu, Oct 31, 2024 | 11am to 12pm at Area 49 Makerspace, Atkins Library 2nd Floor
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Thu, Oct 31, 2024 | 11am to 1pm at king, 210
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event 3D PRINTER TRAINING will be held at Thu, Oct 31, 2024 | 2pm to 3:15pm at Area 49 Makerspace, Atkins Library 2nd Floor
+INFO:generalScrapingMod.Scripts.logging_setup:The event 3D MODELING WORKSHOP will be held at Thu, Oct 31, 2024 | 3:15pm to 4:15pm at Area 49 Makerspace, Atkins Library 2nd Floor
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS will be held at Thu, Oct 31, 2024 | 3:30pm to 4:30pm at Atkins Library, Atkins 146
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS will be held at Thu, Oct 31, 2024 | 3:30pm to 4:30pm at Center for Graduate Life and Learning, Atkins 149
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "FRIDAY THE 13TH" will be held at Thu, Oct 31, 2024 | 6pm to 8pm at Popp Martin Student Union, Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS FOOTBALL VS TULANE will be held at Thu, Oct 31, 2024 | 7:30pm to 10:30pm at Charlotte, N.C., Jerry Richardson Stadium
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "HOCUS POCUS" will be held at Thu, Oct 31, 2024 | 9pm to 11pm at Popp Martin Student Union, Theater
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S TENNIS AT WAKE FOREST INVITATIONAL will be held at Fri, Nov 01, 2024 | at Winston-Salem, N.C.
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS UNF FALL INVITE will be held at Fri, Nov 01, 2024 | at Jacksonville, Fla.
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Fri, Nov 01, 2024 | at Career Center, UCAE and CGLL, In Person and Virtual
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINERS HELPING NINERS will be held at Fri, Nov 01, 2024 | at Virtual Event
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHAISING AI SYMPOSIUM will be held at Fri, Nov 01, 2024 | 10am to 1pm at Popp Martin Student Union, 200
+INFO:generalScrapingMod.Scripts.logging_setup:The event ECONOMICS SEMINAR SERIES will be held at Fri, Nov 01, 2024 | 10am to 11:30am at Friday, 212
+INFO:generalScrapingMod.Scripts.logging_setup:The event SMART RECOVERY MEETING will be held at Fri, Nov 01, 2024 | 11am to 12pm at Waddell Center for Student Health and Wellbeing, 107
+INFO:generalScrapingMod.Scripts.logging_setup:The event IOR TRAINING II: COMBINING CRITICAL THINKING & ASSESSMENT will be held at Fri, Nov 01, 2024 | 12pm to 1pm at Virtual Event
