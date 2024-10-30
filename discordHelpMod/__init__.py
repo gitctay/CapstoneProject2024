@@ -1,5 +1,5 @@
 import discord
-from pymongo_insert import query_event_data  # Import the function
+from Database.event_insertion import query_event_data # Import the function
 from sys import argv  # So we can get the runtime params
 
 class MyClient(discord.Client):

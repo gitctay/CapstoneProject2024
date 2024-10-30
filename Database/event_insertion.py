@@ -1,5 +1,5 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from pymongo_get_database import get_database
+from Database.pymongo_get_database import get_database
 
 
 def insert_event_data(event_dict):
