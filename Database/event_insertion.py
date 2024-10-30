@@ -6,12 +6,12 @@ def insert_event_data(event_dict):
     dbname = get_database()
     event_data_table = dbname["event_data"]
     item = {
-        "event_title": event_dict.event_title,
-        "event_date": event_dict.event_date,
-        "event_meeting": event_dict.event_meeting,
-        "event_text": event_dict.event_text,
-        "event_a_tag": event_dict.event_a_tag
+        "event_title": event_dict.get("event_title"),
+        "event_date": event_dict.get("event_date"),
+        "event_meeting": event_dict.get("event_meeting"),
+        "event_link": event_dict.get("event_link")
     }
+
     event_data_table.insert_one(item)
 
 def add_dummy_data():
