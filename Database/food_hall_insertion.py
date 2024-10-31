@@ -17,25 +17,19 @@ def add_dummy_data():
     dbname = get_database()
     food_hall_data_table = dbname["food_hall_data"]
     item = {
-        "event_title": "test",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "food_hall_name": "Social",
+        "availability": "50",
+        "location": "Student Union",
     }
     item2 = {
-        "event_title": "test_delete",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "food_hall_name": "test_delete",
+        "availability": "50",
+        "location": "Student Union",
     }
     item3 = {
-        "event_title": "test_update",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "food_hall_name": "test_update",
+        "availability": "50",
+        "location": "Student Union",
     }
     food_hall_data_table.insert_many([item, item2, item3])
 
@@ -69,17 +63,17 @@ def update_food_hall_data():
     dbname = get_database()
     food_hall_data_table = dbname["food_hall_data"]
 
-    result = food_hall_data_table.update_one({"event_title": "test_update"}, {"$set": {"event_title": "title updated"}})
+    result = food_hall_data_table.update_one({"food_hall_name": "test_update"}, {"$set": {"food_hall_name": "title updated"}})
     print(f"Matched {result.matched_count} documents and modified {result.modified_count} documents")
 
 def delete_food_hall_data(food_hall_dict):
     dbname = get_database()
     food_hall_data_table = dbname["food_hall_data"]
-    food_hall_data_table.delete_one({"event_title": food_hall_dict.event_title})
+    food_hall_data_table.delete_one({"food_hall_name": food_hall_dict.event_title})
 
 if __name__ == "__main__":
-    filter_dict = {"event_title": "test"}
-    update_dict = {"$set": {"event_title": "new title"}}
+    filter_dict = {"food_hall_name": "test"}
+    update_dict = {"$set": {"food_hall_name": "new title"}}
     add_dummy_data()
     query_food_hall_data()
     # delete_food_hall_data(event_dict)
