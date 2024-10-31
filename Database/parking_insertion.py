@@ -6,9 +6,8 @@ def insert_parking_data(parking_dict):
     dbname = get_database()
     parking_data_table = dbname["parking_data"]
     item = {
-        "parking_name": parking_dict.get("event_title"),
-        "availability": parking_dict.get("event_date"),
-        "location": parking_dict.get("event_meeting")
+        "parking_name": parking_dict.get("parking_name"),
+        "availability": parking_dict.get("availability")
     }
 
     parking_data_table.insert_one(item)
@@ -17,25 +16,16 @@ def add_dummy_data():
     dbname = get_database()
     parking_data_table = dbname["parking_data"]
     item = {
-        "event_title": "test",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "parking_name": "East Deck",
+        "availability": "50",
     }
     item2 = {
-        "event_title": "test_delete",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "parking_name": "test_delete",
+        "availability": "50",
     }
     item3 = {
-        "event_title": "test_update",
-        "event_date": "2021-07-13T00:00:00.000Z",
-        "event_meeting": "test",
-        "event_text": "test",
-        "event_a_tag": "test"
+        "parking_name": "test_update",
+        "availability": "50",
     }
     parking_data_table.insert_many([item, item2, item3])
 
@@ -47,8 +37,7 @@ def query_parking_data():
     for parking in parking_data:
         parking_list.append({
             "parking_name": parking.get("parking_name"),
-            "availability": parking.get("availability"),
-            "location": parking.get("location"),
+            "availability": parking.get("availability")
         })
     return parking_list
 
@@ -69,17 +58,17 @@ def update_parking_data():
     dbname = get_database()
     parking_data_table = dbname["parking_data"]
 
-    result = parking_data_table.update_one({"event_title": "test_update"}, {"$set": {"event_title": "title updated"}})
+    result = parking_data_table.update_one({"parking_name": "test_update"}, {"$set": {"parking_name": "title updated"}})
     print(f"Matched {result.matched_count} documents and modified {result.modified_count} documents")
 
 def delete_parking_data(parking_dict):
     dbname = get_database()
     parking_data_table = dbname["parking_data"]
-    parking_data_table.delete_one({"event_title": parking_dict.event_title})
+    parking_data_table.delete_one({"parking_name": parking_dict.event_title})
 
 if __name__ == "__main__":
-    filter_dict = {"event_title": "test"}
-    update_dict = {"$set": {"event_title": "new title"}}
+    filter_dict = {"parking_name": "test"}
+    update_dict = {"$set": {"parking_name": "new title"}}
     add_dummy_data()
     query_parking_data()
     # delete_parking_data(event_dict)
