@@ -1,4 +1,5 @@
 import time
+import schedule
 from selenium.common import ElementNotVisibleException
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver import Chrome
@@ -30,11 +31,12 @@ def load_site():
 
 def run_event_collection():
     global driver
-    is_last_page = False
     logger = log_setup('event_collection_log.txt')
     driver = Chrome()
     load_site()
     wait_for_element = WebDriverWait(driver, 10)
+    
+    # Get maximum number of pages for events
     max_page_elem = driver.find_element(By.XPATH,
                                         '(//a[@class="em-pagination-item" and not(contains(@class, "em-pagination-item arrow"))])[last()]')
     max_page_num = int(max_page_elem.get_attribute("innerText").strip())
@@ -47,16 +49,12 @@ def run_event_collection():
             break
         next_page_elem = find_element_casual(driver, By.XPATH, ".//a[@aria-label='Next page']")
         for event in events:
-
-            # Will get the general text div that we can then parse
             try:
-
                 event_text = event.find_element(By.XPATH, './/div[@class="em-card_text"]')
                 event_a_tag = event.find_element(By.XPATH, './/div[@class="em-card_text"]//h3/a')
                 event_link = event_a_tag.get_attribute('href')
                 event_title = event_a_tag.text.strip()
                 event_date = event.find_element(By.XPATH, "(.//p[@class='em-card_event-text'])[1]").text.strip()
-                # all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event, By.XPATH, './/p[@class="em-card_event-text"][2]')
 
                 if event_meeting is None:
@@ -73,7 +71,6 @@ def run_event_collection():
                     "event_link": event_link
                 }
 
-
                 insert_event_data(event_dict)
 
             except (ElementNotVisibleException, NoSuchElementException) as ex:
@@ -87,12 +84,22 @@ def run_event_collection():
         if next_page_elem is not None:
             next_page_elem.click()
             time.sleep(5)
+    
+    driver.quit()  # Close the browser after collection
     return True
 
+# Function to run the event collection and log its success
+def job():
+    print("Starting event collection...")
+    run_event_collection()
+    print("Event collection completed.")
 
+# Schedule the job every 12 hours
+schedule.every(12).hours.do(job)
 
-
-def test_event_collect():
-    assert run_event_collection() == True
-
-run_event_collection()
+if __name__ == "__main__":
+    # Initial run
+    job()  # Run immediately on startup
+    while True:
+        schedule.run_pending()  # Keep checking for scheduled jobs
+        time.sleep(1)  # Wait for a while before checking again
