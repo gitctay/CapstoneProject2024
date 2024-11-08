@@ -1,5 +1,5 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from pymongo_get_database import get_database
+from Database.pymongo_get_database import get_database
 
 
 def insert_event_data(event_dict):
@@ -41,22 +41,22 @@ def add_dummy_data():
     }
     event_data_table.insert_many([item, item2, item3])
 
+
+# Event Pull Method - COMPLETE
 def query_event_data():
     dbname = get_database()
     event_data_table = dbname["event_data"]
-    event_data = event_data_table.find()
-    for event in event_data:
-        print(event)
+    events = event_data_table.find().limit(5)  # Limit to the latest 5 events
 
-    specific_event = event_data_table.find_one({"event_title": "test"})
-    if specific_event is not None:
-        print(specific_event) 
-    else:
-        print("No event found with that title")
-
-    limited_events = event_data_table.find().limit(5)
-    for event in limited_events:
-      print(event)
+    event_list = []
+    for event in events:
+        event_list.append({
+            "title": event.get("event_title"),
+            "date": event.get("event_date"),
+            "meeting": event.get("event_meeting"),
+            "link": event.get("event_link"),
+        })
+    return event_list
 
 def update_event_data():
     dbname = get_database()
