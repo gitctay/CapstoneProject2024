@@ -26,7 +26,6 @@ jobs:
         pip install pipenv
         pipenv sync
         if [ -f requirements.txt ]; then pipenv install -r requirements.txt; fi
-        pipenv run pip install -e .
     - name: Test with pytest
       run: |
-        pipenv run pytest test/test.py
+        PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run pytest test/test.py
