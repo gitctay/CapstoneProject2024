@@ -1,11 +1,12 @@
 import time
-import schedule
+
 from selenium.common import ElementNotVisibleException
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.wait import WebDriverWait
 from generalScrapingMod.Scripts.logging_setup import log_setup
 from Database.event_insertion import insert_event_data
@@ -95,11 +96,11 @@ def job():
     print("Event collection completed.")
 
 # Schedule the job every 12 hours
-schedule.every(12).hours.do(job)
+# schedule.every(12).hours.do(job)
 
-if __name__ == "__main__":
-    # Initial run
-    job()  # Run immediately on startup
-    while True:
-        schedule.run_pending()  # Keep checking for scheduled jobs
-        time.sleep(1)  # Wait for a while before checking again
+# if __name__ == "__main__":
+#     # Initial run
+#     job()  # Run immediately on startup
+#     while True:
+#         # schedule.run_pending()  # Keep checking for scheduled jobs
+#         time.sleep(1)  # Wait for a while before checking again
