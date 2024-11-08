@@ -11,19 +11,22 @@ def insert_event_data(event_dict):
         "event_title": event_dict.get("event_title"),
         "event_date": event_dict.get("event_date"),
         "event_meeting": event_dict.get("event_meeting"),
-        "event_link": event_dict.get("event_link")
-    }
-
-    event_data_table.insert_one(event)
-
-def insert_date_time():
-    item = {
+        "event_link": event_dict.get("event_link"),
         "lastAddedAt": datetime.now(),
         "expireAt": datetime.now() + timedelta(days=7)
     }
-    event_data_table.insert_one(item)
 
-event_data_table.create_index("expireAt", expireAfterSeconds=0)
+    event_data_table.insert_one(event)
+    event_data_table.create_index("expireAt", expireAfterSeconds=0)
+
+# def insert_date_time():
+#     item = {
+#         "lastAddedAt": datetime.now(),
+#         "expireAt": datetime.now() + timedelta(days=7)
+#     }
+#     event_data_table.insert_one(item)
+#
+# event_data_table.create_index("expireAt", expireAfterSeconds=0)
 
 def add_dummy_data():
     item = {
@@ -72,7 +75,10 @@ def delete_event_data(event_dict):
     event_data_table.delete_one({"event_title": event_dict.event_title})
 
 if __name__ == "__main__":
-    filter_dict = {"event_title": "test"}
+    filter_dict = {"event_title": "test",
+                   "event_date": "2021-07-13T00:00:00.000Z",
+                   "event_meeting": "test",
+                   "event_link": "test"}
     update_dict = {"$set": {"event_title": "new title"}}
     add_dummy_data()
     query_event_data()
