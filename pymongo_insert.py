@@ -9,7 +9,8 @@ def insert_event_data(event_dict):
         "event_title": event_dict.get("event_title"),
         "event_date": event_dict.get("event_date"),
         "event_meeting": event_dict.get("event_meeting"),
-        "event_link": event_dict.get("event_link")
+        "event_link": event_dict.get("event_link"),
+        "is_recurring": event_dict.get("is_recurring")
     }
 
     event_data_table.insert_one(item)

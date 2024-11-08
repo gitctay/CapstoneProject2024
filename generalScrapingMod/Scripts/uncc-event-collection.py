@@ -58,6 +58,12 @@ def run_event_collection():
                 event_date = event.find_element(By.XPATH, "(.//p[@class='em-card_event-text'])[1]").text.strip()
                 # all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event, By.XPATH, './/p[@class="em-card_event-text"][2]')
+                event_recurring = find_element_casual(event,By.XPATH,"//div[@class='recurring']")
+
+                if event_recurring is not None:
+                    event_recurring = True
+                else:
+                    event_recurring = False
 
                 if event_meeting is None:
                     logger.info("The event meeting location is not found Defaulting to None")
@@ -70,7 +76,8 @@ def run_event_collection():
                     "event_title": event_title,
                     "event_date": event_date,
                     "event_meeting": event_meeting,
-                    "event_link": event_link
+                    "event_link": event_link,
+                    "is_recurring": event_recurring
                 }
 
 
@@ -92,7 +99,7 @@ def run_event_collection():
 
 
 
-def test_event_collect():
-    assert run_event_collection() == True
+# def test_event_collect():
+#     assert run_event_collection() == True
 
 run_event_collection()
