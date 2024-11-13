@@ -45,7 +45,7 @@ def add_dummy_data():
 def query_event_data():
     dbname = get_database()
     event_data_table = dbname["event_data"]
-    events = event_data_table.find().limit(5)  # Limit to the latest 5 events
+    events = event_data_table.find()
 
     event_list = []
     for event in events:
