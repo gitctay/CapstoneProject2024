@@ -16,15 +16,19 @@ def insert_last_scraping_date_event():
 
 def insert_last_scraping_date_parking():
     data = {
-        "parking_last_scraping_date": datetime.now().isoformat()
+        "parking_last_scraping_date": datetime.now().isoformat(),
+        "expireAt": datetime.now() + timedelta(hours=12)
     }
     scraping_date.insert_one(data)
+    scraping_date.create_index("expireAt", expireAfterSeconds=0)
 
 def insert_last_scraping_date_dinning():
     data = {
-        "dinning_last_scraping_date": datetime.now().isoformat()
+        "dinning_last_scraping_date": datetime.now().isoformat(),
+        "expireAt": datetime.now() + timedelta(hours=12)
     }
     scraping_date.insert_one(data)
+    scraping_date.create_index("expireAt", expireAfterSeconds=0)
 
 def query_event_data_last_scrapped():
     data = scraping_date.find({"event_last_scraping_date": {"$exists": True}})
@@ -39,8 +43,18 @@ def query_event_data_last_scrapped():
     #         print("sadas")
     return data
 
+def query_parking_data_last_scraped():
+    data = scraping_date.find({"parking_last_scraping_date": {"$exists": True}})
+    return data
+
+def query_dining_data_last_scrapped():
+    data = scraping_date.find({"dinning_last_scraping_date": {"$exists": True}})
+    return data
+
 if __name__ == "__main__":
     insert_last_scraping_date_parking()
     insert_last_scraping_date_dinning()
     insert_last_scraping_date_event()
     query_event_data_last_scrapped()
+    query_parking_data_last_scraped()
+    query_dining_data_last_scrapped()
