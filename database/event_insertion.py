@@ -1,5 +1,5 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from Database.pymongo_get_database import get_database
+from database.pymongo_get_database import get_database
 from datetime import datetime, timedelta
 
 dbname = get_database()

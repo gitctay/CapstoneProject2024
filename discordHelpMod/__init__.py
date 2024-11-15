@@ -2,8 +2,8 @@ from datetime import datetime
 
 import discord
 from discord.ext import commands
-from Database.event_insertion import query_event_data # Import the function
-from Database.scraping_date_insertion import insert_last_scraping_date_event, insert_last_scraping_date_dinning, insert_last_scraping_date_parking, query_event_data_last_scrapped
+from database.event_insertion import query_event_data # Import the function
+from database.scraping_date_insertion import insert_last_scraping_date_event, insert_last_scraping_date_dinning, insert_last_scraping_date_parking, query_event_data_last_scrapped
 from sys import argv  # So we can get the runtime params
 
 # Event Pages

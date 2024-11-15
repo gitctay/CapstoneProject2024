@@ -3,7 +3,7 @@ from selenium.common.exceptions import TimeoutException,NoSuchElementException,N
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Database.parking_insertion import insert_parking_data
+from database.parking_insertion import insert_parking_data
 
 MAIN_SITE = "https://parkingavailability.charlotte.edu/"
 driver = Chrome()

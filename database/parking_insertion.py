@@ -1,5 +1,7 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from pymongo_get_database import get_database
+from datetime import datetime, timedelta
+
+from database.pymongo_get_database import get_database
 
 dbname = get_database()
 parking_data_table = dbname["parking_data"]
@@ -7,10 +9,13 @@ parking_data_table = dbname["parking_data"]
 def insert_parking_data(parking_dict):
     item = {
         "parking_name": parking_dict.get("parking_name"),
-        "availability": parking_dict.get("availability")
+        "availability": parking_dict.get("availability"),
+        "lastAddedAt": datetime.now(),
+        "expireAt": datetime.now() + timedelta(minutes=5)
     }
 
     parking_data_table.insert_one(item)
+    parking_data_table.create_index("expireAt", expireAfterSeconds=0)
 
 def add_dummy_data():
     item = {

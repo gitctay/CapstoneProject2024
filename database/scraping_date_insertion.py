@@ -1,6 +1,6 @@
 from os.path import exists
 
-from Database.pymongo_get_database import get_database
+from database.pymongo_get_database import get_database
 from datetime import datetime, timedelta
 
 dbname = get_database()
@@ -9,7 +9,7 @@ scraping_date = dbname["scraping_date_insertion"]
 def insert_last_scraping_date_event():
     data = {
         "event_last_scraping_date": datetime.now().isoformat(),
-        "expireAt": datetime.now() + timedelta(days=1)
+        "expireAt": datetime.now() + timedelta(hours=12)
     }
     scraping_date.insert_one(data)
     scraping_date.create_index("expireAt", expireAfterSeconds=0)
