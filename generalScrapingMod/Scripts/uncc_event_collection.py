@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from generalScrapingMod.Scripts.logging_setup import log_setup
-from pymongo_insert import insert_event_data
+from database.event_insertion import insert_event_data
 
 MAIN_SITE = "https://campusevents.charlotte.edu/"
 SUB_SITE = "https://campusevents.charlotte.edu/calendar/week?card_size=small&order=date&experience="
@@ -95,9 +95,6 @@ def run_event_collection():
             next_page_elem.click()
             time.sleep(5)
     return True
-
-
-
 
 # def test_event_collect():
 #     assert run_event_collection() == True

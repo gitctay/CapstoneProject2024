@@ -1,5 +1,5 @@
 import discord
-from Database.event_insertion import query_event_data # Import the function
+from database.event_insertion import query_event_data # Import the function
 from sys import argv  # So we can get the runtime params
 
 class MyClient(discord.Client):
