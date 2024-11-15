@@ -1,6 +1,9 @@
+from datetime import datetime
+
 import discord
 from discord.ext import commands
-from Database.event_insertion import query_event_data # Import the function
+from database.event_insertion import query_event_data # Import the function
+from database.scraping_date_insertion import insert_last_scraping_date_event, insert_last_scraping_date_dinning, insert_last_scraping_date_parking, query_event_data_last_scrapped
 from sys import argv  # So we can get the runtime params
 
 # Event Pages
@@ -139,7 +142,20 @@ class MyClient(discord.Client):
 
         # Hello Command
         if message.content == '!hello':
-            await message.channel.send('Hello! I am your bot.')
+            #await message.channel.send('Hello! I am your bot.')
+            last_scrapped_data = query_event_data_last_scrapped()
+            # for dc in data:
+            #
+            #     await message.channel.send(dc.values())
+            for data in last_scrapped_data:
+                last_scrapped_time = datetime.fromisoformat(data["event_last_scraping_date"])
+                current_time = datetime.now()
+                if (last_scrapped_time < current_time):
+                    insert_last_scraping_date_event()
+                    await message.channel.send("before")
+                else:
+                    await message.channel.send("after")
+
 
         # Gym Command
         elif message.content == '!gym':

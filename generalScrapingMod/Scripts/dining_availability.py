@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
-from Database.food_hall_insertion import insert_food_hall_data
+from database.dining_insertion import insert_food_hall_data
 
 MAIN_SITE = "https://dineoncampus.com/unccharlotte/"
 driver = Chrome()

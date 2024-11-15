@@ -381,3 +381,763 @@ INFO:generalScrapingMod.Scripts.logging_setup:The event EFFECTIVE APPLICATION ST
 INFO:generalScrapingMod.Scripts.logging_setup:The event VIRTUAL OFF-CAMPUS HOUSING FAIR will be held at Wed, Nov 06, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="66592aa0f4fca07d794e4c93d8c94e25", element="f.671B6318F4D9B6C39403DAD990C7EC84.d.C211853B588D6BDA24B10569D21E3E2D.e.1639")>
 INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S SOCCER VS AMERICAN ATHLETIC CONFERENCE SEMIFINALS will be held at Thu, Nov 07, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="66592aa0f4fca07d794e4c93d8c94e25", element="f.671B6318F4D9B6C39403DAD990C7EC84.d.C211853B588D6BDA24B10569D21E3E2D.e.1643")>
 INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 JACKSON will be held at Thu, Nov 07, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="66592aa0f4fca07d794e4c93d8c94e25", element="f.671B6318F4D9B6C39403DAD990C7EC84.d.C211853B588D6BDA24B10569D21E3E2D.e.1647")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.148")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRO TO STRESS SURVIVAL will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.152")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO LEARNING OBJECTIVES AND BACKWARD DESIGN will be held at Mon, Nov 11, 2024 - Fri, Nov 15, 2024 at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.158")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.162")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event COLLABORATING WITH GOOGLE SHARED DRIVE will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.170")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Thu, Nov 14, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.174")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.178")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.182")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event DIGITAL HUMANITIES @ CHARLOTTE MEETUP will be held at Thu, Nov 14, 2024 | 9:45am to 10:45am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.186")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event DIGITAL HUMANITIES @ CHARLOTTE MEETUP will be held at Thu, Nov 14, 2024 | 9:45am to 10:45am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.190")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Thu, Nov 14, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.196")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Thu, Nov 14, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.200")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event CARVEY CNC ROUTER TRAINING will be held at Thu, Nov 14, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.207")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Thu, Nov 14, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.211")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MONEY BOOTCAMP: MAXIMIZING VA BENEFITS will be held at Thu, Nov 14, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.215")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event LUNCH & LEARN: M.S. IN MANAGEMENT will be held at Thu, Nov 14, 2024 | 11:15am to 12:15pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.219")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event IOR TRAINING III - USING ACTIVE LEARNING & CLASS DISCUSSIONS will be held at Thu, Nov 14, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4887EB9CE8D69154E4A08F56873B2D17.e.226")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Thu, Nov 14, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.350")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event LUNCH & LEARN: M.S. IN MANAGEMENT will be held at Thu, Nov 14, 2024 | 12:15pm to 1:15pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.354")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event RESEARCH - AWARD MANAGEMENT WORKSHOP - RELEASE TIME will be held at Thu, Nov 14, 2024 | 2pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.361")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS will be held at Thu, Nov 14, 2024 | 3:30pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.365")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS (VIRTUAL) will be held at Thu, Nov 14, 2024 | 3:30pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.369")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS SOUTH FLORIDA - SEMIFINALS will be held at Thu, Nov 14, 2024 | 4:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.376")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EARTH, ENVIRONMENTAL AND GEOGRAPHICAL SCIENCES ADVISORY BOARD MEETING will be held at Thu, Nov 14, 2024 | 5pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.380")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PERSONALLY SPEAKING: IMMIGRATION AND MASS INCARCERATION: ANOTHER AMERICAN TRADITION will be held at Thu, Nov 14, 2024 | 5pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.383")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE 15TH SEASON OF PERSONALLY SPEAKING will be held at Thu, Nov 14, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.387")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE OLDE MECKLENBURG RESTAURANT & BIERGARTEN AT BALLANTYNE will be held at Thu, Nov 14, 2024 | 5:30pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.391")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COOKIES AND CROCHET will be held at Thu, Nov 14, 2024 | 6pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.395")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Thu, Nov 14, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.399")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PINS MECHANICAL CO. SOCIAL (SOUTH END) will be held at Thu, Nov 14, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.403")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CAB NEON NIGHTS will be held at Thu, Nov 14, 2024 | 7pm to 10pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.407")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Thu, Nov 14, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.411")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Thu, Nov 14, 2024 | 9pm to 11:45pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.415")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.419")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.423")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AF96054CA5B9EA0E53E91FC1083BBB49.e.427")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO LEARNING OBJECTIVES AND BACKWARD DESIGN will be held at Mon, Nov 11, 2024 - Fri, Nov 15, 2024 at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.546")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.550")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINERS HELPING NINERS will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.557")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLOOD DRIVE will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.560")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.564")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event QUESTION, PERSUADE, REFER SUICIDE PREVENTION TRAINING FOR FACULTY/STAFF will be held at Fri, Nov 15, 2024 | 10am to 11:30am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.568")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.572")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.576")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event SMART RECOVERY MEETING will be held at Fri, Nov 15, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.580")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event RESEARCH TALK: "THREE DATA SCIENCE PROJECTS: SPORTS, EQUITY AND EDUCATION" will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.584")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.588")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BARNES AND NOBLES HOMECOMING PRE-PRE GAME will be held at Fri, Nov 15, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.592")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER HISTORY MAKERS OLD SCHOOL DAY PARTY will be held at Fri, Nov 15, 2024 | 4pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.596")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING CARNIVAL will be held at Fri, Nov 15, 2024 | 5pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.600")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Fri, Nov 15, 2024 | 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.604")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 6:30pm to 8:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.608")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 7pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.612")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING NPHC STROLL COMPETITION will be held at Fri, Nov 15, 2024 | 7pm to 10pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.616")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Fri, Nov 15, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.620")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER WELCOME RECEPTION will be held at Fri, Nov 15, 2024 | 8pm to 12am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.4FC8CA7E1FDE3C4DBD320C99C4D2087A.e.624")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Fri, Nov 15, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.745")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event 2024 BELK COLLEGE OF BUSINESS TAILGATE: USF will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.749")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.753")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GAME DAY SPIRIT TENTS will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.757")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING ALUMNI TAILGATE will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.761")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING FOOTBALL GAME will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.765")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.769")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CAMPFIRE & CAVE EXPLORATION will be held at Sat, Nov 16, 2024 | 7am to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.773")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Sat, Nov 16, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.777")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WRITE NOW! will be held at Sat, Nov 16, 2024 | 10am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.781")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EKUSH POLICY DEBATE AND END OF THE YEAR EVENT will be held at Sat, Nov 16, 2024 | 12pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.785")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Sat, Nov 16, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.789")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS FIU/MEMPHIS - CHAMPIONSHIP will be held at Sat, Nov 16, 2024 | 1pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.793")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sat, Nov 16, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.797")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS FOOTBALL VS SOUTH FLORIDA will be held at Sat, Nov 16, 2024 | 3:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.801")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sat, Nov 16, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.805")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Sat, Nov 16, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.809")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER SNEAKER BALL, PRESENTED BY TRUIST will be held at Sat, Nov 16, 2024 | 9pm to 1am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.813")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sat, Nov 16, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.817")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Sun, Nov 17, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.821")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Sun, Nov 17, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.47B9FDE917556DCD87EC54285AC3F0C3.e.825")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER SOULFUL SUNDAY BRUNCH will be held at Sun, Nov 17, 2024 | 11am to 2pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.949")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Sun, Nov 17, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.953")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS FIU/MEMPHIS - CHAMPIONSHIP will be held at Sun, Nov 17, 2024 | 1pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.957")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Sun, Nov 17, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.961")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S VOLLEYBALL VS TEMPLE will be held at Sun, Nov 17, 2024 | 2pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.965")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sun, Nov 17, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.969")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sun, Nov 17, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.973")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sun, Nov 17, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.977")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINDING FOCUS ROUND 3 will be held at Mon, Nov 18, 2024 | 12am to 12am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.981")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Mon, Nov 18, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.985")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Mon, Nov 18, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.989")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Mon, Nov 18, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.993")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: WRITE YOUR NAME IN A DIFFERENT LANGUAGE will be held at Mon, Nov 18, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.997")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PHI BETA DELTA GLOBAL PERSPECTIVE SERIES: "VENICE IS A FISH: CELEBRATION OF THE SOLE STRETCHED OUT AGAINST THE DEEP" will be held at Mon, Nov 18, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1001")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Mon, Nov 18, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1005")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: EDUCATION ABROAD FACULTY-LED PROGRAM DEVELOPMENT WORKSHOP will be held at Mon, Nov 18, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1012")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event AL-ANON MEETING will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1016")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GLOBAL ENGAGEMENT SCHOLARS PROGRAM INFORMATION SESSION will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1020")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MENTAL HEALTH FIRST AID TRAINING will be held at Mon, Nov 18, 2024 | 4pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1024")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MONDAY SEMINAR- RESUME AND CAREER DEVELOPMENT IN THE AGE OF AI will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.2BE994688D6380E6BB268C863CF6D61E.e.1027")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOLISTIC SELF-CARE will be held at Mon, Nov 18, 2024 | 4:15pm to 5:15pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1139")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: "CARVING THE DIVINE" BY YUJIRO SEKI- FILM SCREENING will be held at Mon, Nov 18, 2024 | 5:30pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1146")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL VS CHARLESTON SOUTHERN will be held at Mon, Nov 18, 2024 | 6:30pm to 8:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1150")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: SAMBA DANCE CLASS will be held at Mon, Nov 18, 2024 | 7pm to 8:15pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1154")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Tue, Nov 19, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1158")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Tue, Nov 19, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1163")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Tue, Nov 19, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1167")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Tue, Nov 19, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1171")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Tue, Nov 19, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1175")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Tue, Nov 19, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1179")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: WRITE YOUR NAME IN A DIFFERENT LANGUAGE will be held at Tue, Nov 19, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1186")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: FULBRIGHT LUNCH FOR FACULTY MEMBERS will be held at Tue, Nov 19, 2024 | 11:45am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1190")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Tue, Nov 19, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1194")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NEGOTIATING YOUR EMPLOYMENT OFFER will be held at Tue, Nov 19, 2024 | 1:30pm to 2:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1201")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: INTERNATIONAL SONG MINI-CONCERT will be held at Tue, Nov 19, 2024 | 2:30pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1208")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE RECOVERY PROGRAM WEEKLY DROP-IN will be held at Tue, Nov 19, 2024 | 3pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1212")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COZY READING NIGHT will be held at Tue, Nov 19, 2024 | 3pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.F69E81099D7B53BB9EFF44F16775A2C9.e.1216")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COZY READING NIGHT will be held at Tue, Nov 19, 2024 | 3pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1328")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: MOROCCAN TEA CEREMONY will be held at Tue, Nov 19, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1332")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: TEDXCRAVER ROAD COUNTDOWN will be held at Tue, Nov 19, 2024 | 4:30pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1339")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK - WELCOME TO VENICE: OVER-TOURISM AND SUSTAINABILITY will be held at Tue, Nov 19, 2024 | 5pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1344")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE FUTURE OF MONEY will be held at Tue, Nov 19, 2024 | 5pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1348")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BEYOND THE BRIDGE: A SOLUTION TO HOMELESSNESS will be held at Tue, Nov 19, 2024 | 5:30pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1352")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FULBRIGHT UK SUMMER INSTITUTE INFO WEBINAR will be held at Tue, Nov 19, 2024 | 5:30pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1356")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FULBRIGHT UK SUMMER INSTITUTE INFO WEBINAR will be held at Tue, Nov 19, 2024 | 5:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1360")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GREEN DOT STUDENT OVERVIEW TRAINING will be held at Tue, Nov 19, 2024 | 6pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1364")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S BASKETBALL VS GARDNER-WEBB will be held at Tue, Nov 19, 2024 | 7pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1368")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event JAZZ ENSEMBLE/ COMBOS will be held at Tue, Nov 19, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1372")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FROM BURNOUT TO BALANCE will be held at Wed, Nov 20, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1376")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Wed, Nov 20, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1380")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Wed, Nov 20, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1384")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: STUDY ABROAD AMBASSADOR TABLING will be held at Wed, Nov 20, 2024 | 10am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1388")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Nov 20, 2024 | 12pm to 1:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1392")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Nov 20, 2024 | 12pm to 1:30pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1396")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CULTIVATING GRADITUDE - GRAD STUDENT SUPPORT SPACE will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1400")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TWO WAYS TO MBA INFORMATION SESSION will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1404")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.3A24A38A74F75D33D04B06ABEF7D74D2.e.1408")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event STATE OF HOUSING IN CHARLOTTE 2024 SUMMIT will be held at Wed, Nov 20, 2024 | 2pm to 4:45pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1530")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK - MOVING HISTORIES: "FROM A PRACTITIONER'S CLOSET" will be held at Wed, Nov 20, 2024 | 2:30pm to 3:45pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1534")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event AA MEETINGS will be held at Wed, Nov 20, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1538")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event MENTAL HEALTH FIRST AID TRAINING will be held at Wed, Nov 20, 2024 | 4pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1545")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PROCRASTINATION WORKSHOP SERIES will be held at Wed, Nov 20, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1549")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: TRADITIONAL CHINESE WATERCOLOR WORKSHOP will be held at Wed, Nov 20, 2024 | 5:30pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1553")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLEAR THE AIR: A TOBACCO FREE U will be held at Wed, Nov 20, 2024 | 6pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1557")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: INTERNATIONAL KARAOKE NIGHT will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1561")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WOMEN IN XR: CHARLOTTE VIRTUAL AND AUGMENTED REALITY MEETUP will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1565")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WOMEN IN XR: CHARLOTTE VIRTUAL AND AUGMENTED REALITY MEETUP will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1569")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: CAPOEIRA DANCE WORKSHOP will be held at Wed, Nov 20, 2024 | 7pm to 8:15pm at <selenium.webdriver.remote.webelement.WebElement (session="8bab598462e3c4673d677525a4bd4804", element="f.AEF5EB4273AFA540FD21EC9E8D21F365.d.AACBB6FBF5E1F4463A37B054FD43CB0E.e.1573")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.139")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRO TO STRESS SURVIVAL will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.143")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO LEARNING OBJECTIVES AND BACKWARD DESIGN will be held at Mon, Nov 11, 2024 - Fri, Nov 15, 2024 at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.147")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Thu, Nov 14, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.151")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event COLLABORATING WITH GOOGLE SHARED DRIVE will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.158")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Thu, Nov 14, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.162")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.166")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Thu, Nov 14, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.170")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event DIGITAL HUMANITIES @ CHARLOTTE MEETUP will be held at Thu, Nov 14, 2024 | 9:45am to 10:45am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.174")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event DIGITAL HUMANITIES @ CHARLOTTE MEETUP will be held at Thu, Nov 14, 2024 | 9:45am to 10:45am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.178")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Thu, Nov 14, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.185")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Thu, Nov 14, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.189")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event CARVEY CNC ROUTER TRAINING will be held at Thu, Nov 14, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.196")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Thu, Nov 14, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.200")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MONEY BOOTCAMP: MAXIMIZING VA BENEFITS will be held at Thu, Nov 14, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.204")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event LUNCH & LEARN: M.S. IN MANAGEMENT will be held at Thu, Nov 14, 2024 | 11:15am to 12:15pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.208")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event IOR TRAINING III - USING ACTIVE LEARNING & CLASS DISCUSSIONS will be held at Thu, Nov 14, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.674DCCA886C3E9CAF4CB5B7DFAB26A4D.e.215")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Thu, Nov 14, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.337")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event LUNCH & LEARN: M.S. IN MANAGEMENT will be held at Thu, Nov 14, 2024 | 12:15pm to 1:15pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.341")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event RESEARCH - AWARD MANAGEMENT WORKSHOP - RELEASE TIME will be held at Thu, Nov 14, 2024 | 2pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.348")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS will be held at Thu, Nov 14, 2024 | 3:30pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.352")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CENTER FOR WELLNESS PROMOTION SKY WELLNESS SESSIONS (VIRTUAL) will be held at Thu, Nov 14, 2024 | 3:30pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.356")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS SOUTH FLORIDA - SEMIFINALS will be held at Thu, Nov 14, 2024 | 4:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.363")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EARTH, ENVIRONMENTAL AND GEOGRAPHICAL SCIENCES ADVISORY BOARD MEETING will be held at Thu, Nov 14, 2024 | 5pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.367")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PERSONALLY SPEAKING: IMMIGRATION AND MASS INCARCERATION: ANOTHER AMERICAN TRADITION will be held at Thu, Nov 14, 2024 | 5pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.371")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE 15TH SEASON OF PERSONALLY SPEAKING will be held at Thu, Nov 14, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.375")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE OLDE MECKLENBURG RESTAURANT & BIERGARTEN AT BALLANTYNE will be held at Thu, Nov 14, 2024 | 5:30pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.379")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COOKIES AND CROCHET will be held at Thu, Nov 14, 2024 | 6pm to 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.383")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Thu, Nov 14, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.387")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PINS MECHANICAL CO. SOCIAL (SOUTH END) will be held at Thu, Nov 14, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.391")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CAB NEON NIGHTS will be held at Thu, Nov 14, 2024 | 7pm to 10pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.395")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Thu, Nov 14, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.399")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Thu, Nov 14, 2024 | 9pm to 11:45pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.403")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.407")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.411")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.03F5F936C845D74967F2DF79B6F50E47.e.415")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO LEARNING OBJECTIVES AND BACKWARD DESIGN will be held at Mon, Nov 11, 2024 - Fri, Nov 15, 2024 at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.539")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.543")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINERS HELPING NINERS will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.550")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLOOD DRIVE will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.554")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.558")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event QUESTION, PERSUADE, REFER SUICIDE PREVENTION TRAINING FOR FACULTY/STAFF will be held at Fri, Nov 15, 2024 | 10am to 11:30am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.562")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.566")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.570")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event SMART RECOVERY MEETING will be held at Fri, Nov 15, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.574")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event RESEARCH TALK: "THREE DATA SCIENCE PROJECTS: SPORTS, EQUITY AND EDUCATION" will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.578")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.582")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BARNES AND NOBLES HOMECOMING PRE-PRE GAME will be held at Fri, Nov 15, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.586")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER HISTORY MAKERS OLD SCHOOL DAY PARTY will be held at Fri, Nov 15, 2024 | 4pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.590")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING CARNIVAL will be held at Fri, Nov 15, 2024 | 5pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.594")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Fri, Nov 15, 2024 | 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.598")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 6:30pm to 8:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.602")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 7pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.606")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING NPHC STROLL COMPETITION will be held at Fri, Nov 15, 2024 | 7pm to 10pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.610")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Fri, Nov 15, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.614")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER WELCOME RECEPTION will be held at Fri, Nov 15, 2024 | 8pm to 12am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.84180B2A56D5AB137548CB758FC7E9EF.e.618")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Fri, Nov 15, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.742")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event 2024 BELK COLLEGE OF BUSINESS TAILGATE: USF will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.746")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.750")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GAME DAY SPIRIT TENTS will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.754")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING ALUMNI TAILGATE will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.758")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING FOOTBALL GAME will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.762")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Sat, Nov 16, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.766")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CAMPFIRE & CAVE EXPLORATION will be held at Sat, Nov 16, 2024 | 7am to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.770")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Sat, Nov 16, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.774")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WRITE NOW! will be held at Sat, Nov 16, 2024 | 10am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.778")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EKUSH POLICY DEBATE AND END OF THE YEAR EVENT will be held at Sat, Nov 16, 2024 | 12pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.782")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Sat, Nov 16, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.786")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS FIU/MEMPHIS - CHAMPIONSHIP will be held at Sat, Nov 16, 2024 | 1pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.790")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sat, Nov 16, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.794")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS FOOTBALL VS SOUTH FLORIDA will be held at Sat, Nov 16, 2024 | 3:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.798")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sat, Nov 16, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.802")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Sat, Nov 16, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.806")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER SNEAKER BALL, PRESENTED BY TRUIST will be held at Sat, Nov 16, 2024 | 9pm to 1am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.810")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sat, Nov 16, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.814")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Sun, Nov 17, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.818")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Sun, Nov 17, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.A006D33EA293F154DC2826098912F384.e.822")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER SOULFUL SUNDAY BRUNCH will be held at Sun, Nov 17, 2024 | 11am to 2pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.944")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Sun, Nov 17, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.948")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S SOCCER VS FIU/MEMPHIS - CHAMPIONSHIP will be held at Sun, Nov 17, 2024 | 1pm to 3pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.952")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Sun, Nov 17, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.956")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S VOLLEYBALL VS TEMPLE will be held at Sun, Nov 17, 2024 | 2pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.960")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sun, Nov 17, 2024 | 2pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.964")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "AMBER ALERT" will be held at Sun, Nov 17, 2024 | 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.968")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Sun, Nov 17, 2024 | 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.972")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINDING FOCUS ROUND 3 will be held at Mon, Nov 18, 2024 | 12am to 12am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.976")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Mon, Nov 18, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.980")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Mon, Nov 18, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.984")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FINANCIAL WELLNESS WALK-IN HOURS will be held at Mon, Nov 18, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.988")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: WRITE YOUR NAME IN A DIFFERENT LANGUAGE will be held at Mon, Nov 18, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.992")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PHI BETA DELTA GLOBAL PERSPECTIVE SERIES: "VENICE IS A FISH: CELEBRATION OF THE SOLE STRETCHED OUT AGAINST THE DEEP" will be held at Mon, Nov 18, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.996")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Mon, Nov 18, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1000")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: EDUCATION ABROAD FACULTY-LED PROGRAM DEVELOPMENT WORKSHOP will be held at Mon, Nov 18, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1007")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event AL-ANON MEETING will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1011")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GLOBAL ENGAGEMENT SCHOLARS PROGRAM INFORMATION SESSION will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1015")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MENTAL HEALTH FIRST AID TRAINING will be held at Mon, Nov 18, 2024 | 4pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1019")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MONDAY SEMINAR- RESUME AND CAREER DEVELOPMENT IN THE AGE OF AI will be held at Mon, Nov 18, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.F800C8C0856C248AEE76D99CC6D58B3B.e.1023")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOLISTIC SELF-CARE will be held at Mon, Nov 18, 2024 | 4:15pm to 5:15pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1145")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: "CARVING THE DIVINE" BY YUJIRO SEKI- FILM SCREENING will be held at Mon, Nov 18, 2024 | 5:30pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1152")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL VS CHARLESTON SOUTHERN will be held at Mon, Nov 18, 2024 | 6:30pm to 8:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1156")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: SAMBA DANCE CLASS will be held at Mon, Nov 18, 2024 | 7pm to 8:15pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1160")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Tue, Nov 19, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1164")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Tue, Nov 19, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1168")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Tue, Nov 19, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1172")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 1 - BUILDING REPORTS AND VISUALIZATIONS will be held at Tue, Nov 19, 2024 | 9am to 10am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1176")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Tue, Nov 19, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1180")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS DEVELOPER LEVEL 2 - BUILDING DASHBOARDS will be held at Tue, Nov 19, 2024 | 10:15am to 11:15am at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1184")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: WRITE YOUR NAME IN A DIFFERENT LANGUAGE will be held at Tue, Nov 19, 2024 | 11am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1191")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: FULBRIGHT LUNCH FOR FACULTY MEMBERS will be held at Tue, Nov 19, 2024 | 11:45am to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1195")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Tue, Nov 19, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1199")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NEGOTIATING YOUR EMPLOYMENT OFFER will be held at Tue, Nov 19, 2024 | 1:30pm to 2:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1206")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: INTERNATIONAL SONG MINI-CONCERT will be held at Tue, Nov 19, 2024 | 2:30pm to 4pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1213")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE RECOVERY PROGRAM WEEKLY DROP-IN will be held at Tue, Nov 19, 2024 | 3pm to 4:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1217")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COZY READING NIGHT will be held at Tue, Nov 19, 2024 | 3pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.D63DAAC827B4536756FBF832204F6594.e.1221")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event COZY READING NIGHT will be held at Tue, Nov 19, 2024 | 3pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1344")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: MOROCCAN TEA CEREMONY will be held at Tue, Nov 19, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1348")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: TEDXCRAVER ROAD COUNTDOWN will be held at Tue, Nov 19, 2024 | 4:30pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1355")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK - WELCOME TO VENICE: OVER-TOURISM AND SUSTAINABILITY will be held at Tue, Nov 19, 2024 | 5pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1359")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event THE FUTURE OF MONEY will be held at Tue, Nov 19, 2024 | 5pm to 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1363")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BEYOND THE BRIDGE: A SOLUTION TO HOMELESSNESS will be held at Tue, Nov 19, 2024 | 5:30pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1367")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FULBRIGHT UK SUMMER INSTITUTE INFO WEBINAR will be held at Tue, Nov 19, 2024 | 5:30pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1371")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FULBRIGHT UK SUMMER INSTITUTE INFO WEBINAR will be held at Tue, Nov 19, 2024 | 5:30pm to 6:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1375")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event GREEN DOT STUDENT OVERVIEW TRAINING will be held at Tue, Nov 19, 2024 | 6pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1379")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS MEN'S BASKETBALL VS GARDNER-WEBB will be held at Tue, Nov 19, 2024 | 7pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1383")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event JAZZ ENSEMBLE/ COMBOS will be held at Tue, Nov 19, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1387")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event FROM BURNOUT TO BALANCE will be held at Wed, Nov 20, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1391")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Wed, Nov 20, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1395")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Wed, Nov 20, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1399")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: STUDY ABROAD AMBASSADOR TABLING will be held at Wed, Nov 20, 2024 | 10am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1403")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Nov 20, 2024 | 12pm to 1:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1407")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHINESE CHRISTIAN FELLOWSHIP ON CAMPUS will be held at Wed, Nov 20, 2024 | 12pm to 1:30pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1411")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CULTIVATING GRADITUDE - GRAD STUDENT SUPPORT SPACE will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1415")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TWO WAYS TO MBA INFORMATION SESSION will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1419")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Wed, Nov 20, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.5FA79F51E9E468424ACDF6A9C11F6198.e.1423")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event STATE OF HOUSING IN CHARLOTTE 2024 SUMMIT will be held at Wed, Nov 20, 2024 | 2pm to 4:45pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1545")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK - MOVING HISTORIES: "FROM A PRACTITIONER'S CLOSET" will be held at Wed, Nov 20, 2024 | 2:30pm to 3:45pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1549")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event AA MEETINGS will be held at Wed, Nov 20, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1553")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event MENTAL HEALTH FIRST AID TRAINING will be held at Wed, Nov 20, 2024 | 4pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1560")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event PROCRASTINATION WORKSHOP SERIES will be held at Wed, Nov 20, 2024 | 4pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1564")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: TRADITIONAL CHINESE WATERCOLOR WORKSHOP will be held at Wed, Nov 20, 2024 | 5:30pm to 7pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1568")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLEAR THE AIR: A TOBACCO FREE U will be held at Wed, Nov 20, 2024 | 6pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1572")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: INTERNATIONAL KARAOKE NIGHT will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1576")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WOMEN IN XR: CHARLOTTE VIRTUAL AND AUGMENTED REALITY MEETUP will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1580")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WOMEN IN XR: CHARLOTTE VIRTUAL AND AUGMENTED REALITY MEETUP will be held at Wed, Nov 20, 2024 | 6pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1583")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTERNATIONAL EDUCATION WEEK: CAPOEIRA DANCE WORKSHOP will be held at Wed, Nov 20, 2024 | 7pm to 8:15pm at <selenium.webdriver.remote.webelement.WebElement (session="c7ffdadddaa380cf1ab8dcebd3dc666b", element="f.A35E802CBD549B156CA09267F83B3D59.d.FD9D1C6FF89F839854BB2C38C732AA90.e.1587")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.138")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS CROSS COUNTRY NCAA SOUTHEAST REGIONAL will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.142")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S TENNIS VS ITF W15 CLEMSON will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.146")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event INTRODUCTION TO LEARNING OBJECTIVES AND BACKWARD DESIGN will be held at Mon, Nov 11, 2024 - Fri, Nov 15, 2024 at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.150")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINER CAREER CHALLENGE-WIN SPRING 2025 TUITION will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.154")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event meeting location is not found Defaulting to None
+INFO:generalScrapingMod.Scripts.logging_setup:The event NINERS HELPING NINERS will be held at Fri, Nov 15, 2024 | at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.161")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLOOD DRIVE will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.165")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event EGSA BOOK DRIVE FOR PROMISING PAGES will be held at Fri, Nov 15, 2024 | 9am to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.169")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event QUESTION, PERSUADE, REFER SUICIDE PREVENTION TRAINING FOR FACULTY/STAFF will be held at Fri, Nov 15, 2024 | 10am to 11:30am at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.173")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.177")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event WEBFOCUS TRAINING OPEN SWIM will be held at Fri, Nov 15, 2024 | 10am to 11am at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.181")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event SMART RECOVERY MEETING will be held at Fri, Nov 15, 2024 | 11am to 12pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.185")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event RESEARCH TALK: "THREE DATA SCIENCE PROJECTS: SPORTS, EQUITY AND EDUCATION" will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.189")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event TEST WALK-IN will be held at Fri, Nov 15, 2024 | 12pm to 1pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.193")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BARNES AND NOBLES HOMECOMING PRE-PRE GAME will be held at Fri, Nov 15, 2024 | 3pm to 5pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.197")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER HISTORY MAKERS OLD SCHOOL DAY PARTY will be held at Fri, Nov 15, 2024 | 4pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.201")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING CARNIVAL will be held at Fri, Nov 15, 2024 | 5pm to 8pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.205")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event MOVIE: "TRANSFORMERS ONE" will be held at Fri, Nov 15, 2024 | 6pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.209")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 6:30pm to 8:30pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.213")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CHARLOTTE 49ERS WOMEN'S BASKETBALL AT UNC ASHEVILLE will be held at Fri, Nov 15, 2024 | 7pm to 9pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.1F8EA29A46045CB80935C4E2A9763EF1.e.217")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event HOMECOMING NPHC STROLL COMPETITION will be held at Fri, Nov 15, 2024 | 7pm to 10pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.EF67DA81CC616B70552523F6BD36D40E.e.340")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event CLYBOURNE PARK will be held at Fri, Nov 15, 2024 | 7:30pm at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.EF67DA81CC616B70552523F6BD36D40E.e.344")>
+INFO:generalScrapingMod.Scripts.logging_setup:The event BLACK ALUMNI CHAPTER WELCOME RECEPTION will be held at Fri, Nov 15, 2024 | 8pm to 12am at <selenium.webdriver.remote.webelement.WebElement (session="ba5b24b6bbd193d43d5a9aafaa3bc649", element="f.BCC0C031E0B5E1D3CE7844C3145D64F6.d.EF67DA81CC616B70552523F6BD36D40E.e.348")>
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
+ERROR:generalScrapingMod.Scripts.logging_setup:There was an issue grabbing an element because of an unknown exception Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.69)
+Stacktrace:
+0   chromedriver                        0x000000010089d548 cxxbridge1$str$ptr + 3618920
+1   chromedriver                        0x0000000100895d98 cxxbridge1$str$ptr + 3588280
+2   chromedriver                        0x00000001003049c4 cxxbridge1$string$len + 89228
+3   chromedriver                        0x00000001002dfea0 core::str::slice_error_fail::ha0e52dbcb60e6bae + 3780
+4   chromedriver                        0x000000010036ece0 cxxbridge1$string$len + 524200
+5   chromedriver                        0x0000000100381bbc cxxbridge1$string$len + 601732
+6   chromedriver                        0x000000010033d5c0 cxxbridge1$string$len + 321672
+7   chromedriver                        0x000000010033e210 cxxbridge1$string$len + 324824
+8   chromedriver                        0x00000001008694bc cxxbridge1$str$ptr + 3405788
+9   chromedriver                        0x000000010086c7dc cxxbridge1$str$ptr + 3418876
+10  chromedriver                        0x0000000100850130 cxxbridge1$str$ptr + 3302480
+11  chromedriver                        0x000000010086d09c cxxbridge1$str$ptr + 3421116
+12  chromedriver                        0x0000000100841888 cxxbridge1$str$ptr + 3242920
+13  chromedriver                        0x00000001008869c8 cxxbridge1$str$ptr + 3525864
+14  chromedriver                        0x0000000100886b44 cxxbridge1$str$ptr + 3526244
+15  chromedriver                        0x0000000100895a0c cxxbridge1$str$ptr + 3587372
+16  libsystem_pthread.dylib             0x000000019f07f2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019f07a0fc thread_start + 8
+
