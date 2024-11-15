@@ -12,6 +12,7 @@ def insert_event_data(event_dict):
         "event_date": event_dict.get("event_date"),
         "event_meeting": event_dict.get("event_meeting"),
         "event_link": event_dict.get("event_link"),
+        "is_recurring": event_dict.get("is_recurring"),
         "lastAddedAt": datetime.now(),
         "expireAt": datetime.now() + timedelta(days=7)
     }

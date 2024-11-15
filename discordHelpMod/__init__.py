@@ -3,7 +3,9 @@ from datetime import datetime
 import discord
 from discord.ext import commands
 from database.event_insertion import query_event_data # Import the function
-from database.scraping_date_insertion import insert_last_scraping_date_event, insert_last_scraping_date_dinning, insert_last_scraping_date_parking, query_event_data_last_scrapped
+from database.scraping_date_insertion import insert_last_scraping_date_event, insert_last_scraping_date_dinning, \
+    insert_last_scraping_date_parking, query_event_data_last_scrapped, query_parking_data_last_scraped, \
+    query_dining_data_last_scrapped
 from sys import argv  # So we can get the runtime params
 
 # Event Pages
@@ -142,7 +144,9 @@ class MyClient(discord.Client):
 
         # Hello Command
         if message.content == '!hello':
-            #await message.channel.send('Hello! I am your bot.')
+            await message.channel.send('Hello! I am your bot.')
+
+        elif message.content == '!testing_event':
             last_scrapped_data = query_event_data_last_scrapped()
             # for dc in data:
             #
@@ -152,6 +156,28 @@ class MyClient(discord.Client):
                 current_time = datetime.now()
                 if (last_scrapped_time < current_time):
                     insert_last_scraping_date_event()
+                    await message.channel.send("before")
+                else:
+                    await message.channel.send("after")
+
+        elif message.content == '!testing_parking':
+            last_scrapped_data = query_parking_data_last_scraped()
+            for data in last_scrapped_data:
+                last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
+                current_time = datetime.now()
+                if (last_scrapped_time < current_time):
+                    insert_last_scraping_date_parking()
+                    await message.channel.send("before")
+                else:
+                    await message.channel.send("after")
+
+        elif message.content == '!testing_dining':
+            last_scrapped_data = query_dining_data_last_scrapped()
+            for data in last_scrapped_data:
+                last_scrapped_time = datetime.fromisoformat(data["dining_last_scraping_date"])
+                current_time = datetime.now()
+                if (last_scrapped_time < current_time):
+                    insert_last_scraping_date_dinning()
                     await message.channel.send("before")
                 else:
                     await message.channel.send("after")
