@@ -95,7 +95,8 @@ def run_event_collection():
         if next_page_elem is not None:
             next_page_elem.click()
             time.sleep(5)
-    print("Event collection completed.")
+    print("Scraping completed.")
+    
     return True
 
 
