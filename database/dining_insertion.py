@@ -11,8 +11,8 @@ def insert_food_hall_data(food_hall_dict):
     item = {
         "food_hall_name": food_hall_dict.get("food_hall_name"),
         "capacity": food_hall_dict.get("capacity"),
-        "hours": food_hall_dict.get("hours"),
-        "menu": food_hall_dict.get("menu"),
+        # "hours": food_hall_dict.get("hours"),
+        # "menu": food_hall_dict.get("menu"),
         "status": food_hall_dict.get("status"),
         "lastAddedAt": datetime.now(),
         "expireAt": datetime.now() + timedelta(days=1)
