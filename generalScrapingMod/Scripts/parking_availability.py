@@ -37,4 +37,9 @@ def load_site():
                 print(f"Availability: {event_per_text} \n")
             except Exception as ex:
                 print(ex)
-load_site()
+
+    print("Scraping completed.")  # Signal the bot to continue
+
+if __name__ == "__main__":
+    load_site()
+    driver.quit()

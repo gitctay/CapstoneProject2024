@@ -1,12 +1,19 @@
+import re
 from selenium.webdriver import Chrome
 from selenium.common.exceptions import TimeoutException,NoSuchElementException,NoSuchAttributeException,ElementClickInterceptedException
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
+from generalScrapingMod.Scripts.logging_setup import log_setup
 from database.dining_insertion import insert_food_hall_data
+'selenium.webdriver.support.select.Select'
 
 MAIN_SITE = "https://dineoncampus.com/unccharlotte/"
+MENU_SITE = "https://dineoncampus.com/unccharlotte/whats-on-the-menu"
 driver = Chrome()
 wait_for_element = WebDriverWait(driver, 10)
 
@@ -15,6 +22,7 @@ def load_site():
         driver.get(MAIN_SITE)
     except TimeoutException:
         print(f"Loading took too long for site {MAIN_SITE}")
+        driver.get(MAIN_SITE)
     driver.implicitly_wait(5)
 
     #outline = driver.find_element(By.XPATH, ".//div[contains(@class, 'col')]")
@@ -26,14 +34,26 @@ def load_site():
     else:
         for event in dining:
             try:
+                x = re.search(r"(^.+)\n(Open|Closed)\.(.*)", event.text)
+                if (x := re.search(r"(^.+)\n(Open|Closed)\.(.*)", event.text)) is None:
+                    return None
+
                 dining_dict = {
-                    "food_hall_name": event.text,
+                    "food_hall_name": x.group(1),
+                    "availability": x.group(2),
+                    "status": x.group(3)
                 }
                 insert_food_hall_data(dining_dict)
-                # print(event.text)
+                print(x.group(1), '\n', x.group(2), '\n',x.group(3))
                 # hall = driver.find_elements(By.XPATH, "../span[contains(@class,'whats-open-tile_location')]")
                 # print(hall, '\n')
 
+
             except Exception as ex:
                 print(ex)
+
+# def load_menu():
+#     try:
+#         driver.get(MENU_SITE)
+
 load_site()
