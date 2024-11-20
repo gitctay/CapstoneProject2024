@@ -61,3 +61,6 @@ def load_site():
 
 def test_dining_scrape():
     assert load_site() == True
+
+if __name__ == '__main__':
+    load_site()
