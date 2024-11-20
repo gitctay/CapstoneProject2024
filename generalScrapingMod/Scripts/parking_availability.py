@@ -9,10 +9,10 @@ from selenium.webdriver.chrome.options import Options
 MAIN_SITE = "https://parkingavailability.charlotte.edu/"
 chrome_options = Options()
 chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
 driver = Chrome(options=chrome_options)
 wait_for_element = WebDriverWait(driver, 10)
-
-
 def load_site():
     try:
         driver.get(MAIN_SITE)
@@ -40,4 +40,11 @@ def load_site():
                 print(f"Availability: {event_per_text} \n")
             except Exception as ex:
                 print(ex)
-load_site()
+    print("Scraping completed.")
+    return True
+
+
+
+
+def test_parking_run():
+    assert load_site() == True
