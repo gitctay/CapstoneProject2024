@@ -41,7 +41,7 @@ jobs:
     - name: Install ChromeDriver
       run: |
         current_dir=$(pwd)
-        wget -N https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chrome-linux64.zip
+        wget -N https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chromedriver-linux64.zip
         cd $current_dir
         echo 'ls'
         unzip chromedriver-linux64.zip -d /usr/local/bin/
