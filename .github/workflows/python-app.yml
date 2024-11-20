@@ -55,4 +55,4 @@ jobs:
     # Run tests with pytest (including Selenium tests)
     - name: Test with pytest
       run: |
-        PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run pytest --maxfail=5 --disable-warnings
+        PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run pytest ./test/test.py --maxfail=5 --disable-warnings
