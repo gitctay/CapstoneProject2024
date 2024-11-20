@@ -4,7 +4,7 @@ import sys
 import asyncio
 from pathlib import Path
 import pathlib
-from datetime import datetime
+from datetime import datetime, timedelta
 from discord.ext import commands
 from database.event_insertion import query_event_data
 from database.parking_insertion import query_parking_data
@@ -23,9 +23,9 @@ async def event_last_scrapped_data(ctx):
     for data in last_scrapped_data:
         print("loop")
         last_scrapped_time = datetime.fromisoformat(data["event_last_scraping_date"])
-        current_time = datetime.now()
+        current_time_plus_delta = datetime.now() + timedelta(hours=7)
 
-        if last_scrapped_time < current_time:
+        if last_scrapped_time > current_time_plus_delta:
             # Data is outdated
             await ctx.send("Scraping new data...")
             print("scraping new data...")
@@ -63,6 +63,7 @@ async def event_last_scrapped_data(ctx):
 
                     # Check for the completion message
                     if "Event collection completed." in decoded_line:
+                        insert_last_scraping_date_event()
                         print("Scraping script signaled completion.")
                         return True  # Signal success immediately after completion
 
@@ -88,10 +89,10 @@ async def parking_last_scrapped_data(ctx):
     last_scrapped_data = query_parking_data_last_scraped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
-        current_time = datetime.now()
+        current_time = datetime.now() + timedelta(minutes=5)
 
         # Data is outdated
-        if last_scrapped_time < current_time:
+        if last_scrapped_time > current_time:
             await ctx.send("Scraping new parking data...")
             print("Scraping new parking data...")
 
@@ -152,8 +153,8 @@ async def dining_last_scrapped_data(ctx):
     last_scrapped_data = query_dining_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["dining_last_scraping_date"])
-        current_time = datetime.now()
-        if last_scrapped_time < current_time:
+        current_time = datetime.now() + timedelta(minutes=30)
+        if last_scrapped_time > current_time:
             insert_last_scraping_date_dinning()
             await ctx.send("Scraping new data...")
         else:
