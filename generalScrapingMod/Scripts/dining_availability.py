@@ -1,6 +1,7 @@
 import re
 from selenium.webdriver import Chrome
 from selenium.common.exceptions import TimeoutException,NoSuchElementException,NoSuchAttributeException,ElementClickInterceptedException
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
@@ -14,7 +15,9 @@ from database.dining_insertion import insert_food_hall_data
 
 MAIN_SITE = "https://dineoncampus.com/unccharlotte/"
 MENU_SITE = "https://dineoncampus.com/unccharlotte/whats-on-the-menu"
-driver = Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = Chrome(options=chrome_options)
 wait_for_element = WebDriverWait(driver, 10)
 
 def load_site():
@@ -24,6 +27,8 @@ def load_site():
         print(f"Loading took too long for site {MAIN_SITE}")
         driver.get(MAIN_SITE)
     driver.implicitly_wait(5)
+    driver.find_element(By.XPATH,'.//span[@class="see-more" and contains(text(),"Show 2 closed locations")]').click()
+
 
     #outline = driver.find_element(By.XPATH, ".//div[contains(@class, 'col')]")
     dining = driver.find_elements(By.XPATH, ".//div[contains(@class,'row whats-open-tile_hours')]")
