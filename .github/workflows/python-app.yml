@@ -46,7 +46,7 @@ jobs:
         echo 'ls'
         unzip chromedriver-linux64.zip -d /usr/local/bin/
         chmod +x /usr/local/bin/chromedriver-linux64
-        rm chromedriver_linux64.zip
+        rm chromedriver-linux64.zip
 
     # Set ChromeDriver path for Selenium
     - name: Set ChromeDriver Path
