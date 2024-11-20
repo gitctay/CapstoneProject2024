@@ -9,7 +9,7 @@ scraping_date = dbname["scraping_date_insertion"]
 def insert_last_scraping_date_event():
     data = {
         "event_last_scraping_date": datetime.now().isoformat(),
-        "expireAt": datetime.now() + timedelta(hours=12)
+        "expireAt": datetime.now() + timedelta(hours=7)
     }
     scraping_date.insert_one(data)
     scraping_date.create_index("expireAt", expireAfterSeconds=0)
