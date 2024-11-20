@@ -33,7 +33,7 @@ def add_dummy_data():
     parking_data_table.insert_many([item, item2, item3])
 
 def query_parking_data():
-    parking_data = parking_data_table.find().limit(5)
+    parking_data = parking_data_table.find()
     parking_list = []
     for parking in parking_data:
         parking_list.append({
