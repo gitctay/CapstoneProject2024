@@ -89,7 +89,7 @@ async def parking_last_scrapped_data(ctx):
     last_scrapped_data = query_parking_data_last_scraped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
-        current_time = datetime.now() + timedelta(hours=7)
+        current_time = datetime.now() + timedelta(minutes=5)
 
         # Data is outdated
         if last_scrapped_time > current_time:
@@ -153,7 +153,7 @@ async def dining_last_scrapped_data(ctx):
     last_scrapped_data = query_dining_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["dining_last_scraping_date"])
-        current_time = datetime.now() + timedelta(hours=7)
+        current_time = datetime.now() + timedelta(minutes=30)
         if last_scrapped_time > current_time:
             insert_last_scraping_date_dinning()
             await ctx.send("Scraping new data...")

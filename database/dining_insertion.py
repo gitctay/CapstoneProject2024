@@ -9,18 +9,21 @@ dining_data_table = db['dinning_data']
 
 def insert_food_hall_data(food_hall_dict):
     item = {
-        "food_hall_name": food_hall_dict.get("food_hall_name"),
-        "capacity": food_hall_dict.get("capacity"),
-        # "hours": food_hall_dict.get("hours"),
-        # "menu": food_hall_dict.get("menu"),
-        "status": food_hall_dict.get("status"),
+        "availability": food_hall_dict.get('availability'),
+        "food_hall_name": food_hall_dict.get('food_hall_name'),
+        "status": food_hall_dict.get('status'),
         "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(days=1)
+        "expireAt": datetime.now() + timedelta(minutes=30)
     }
 
     dining_data_table.insert_one(item)
     dining_data_table.create_index("expireAt", expireAfterSeconds=0)
 
+test_insrt = {
+        "food_hall_name": "food_hall_name",
+        "availability": "availability",
+        "status": "status",
+}
 def add_dummy_data():
     item = {
         "food_hall_name": "food_hall_name",
@@ -75,6 +78,7 @@ def delete_food_hall_data(food_hall_dict):
 if __name__ == "__main__":
     filter_dict = {"food_hall_name": "test"}
     update_dict = {"$set": {"food_hall_name": "new title"}}
+    insert_food_hall_data(test_insrt)
     add_dummy_data()
     query_food_hall_data()
     # delete_food_hall_data(event_dict)
