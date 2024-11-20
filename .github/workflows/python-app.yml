@@ -40,8 +40,7 @@ jobs:
     # Install ChromeDriver for Selenium
     - name: Install ChromeDriver
       run: |
-        CHROME_VERSION='131.0.6778.85'
-        wget -N https://chromedriver.storage.googleapis.com/$CHROME_VERSION/chromedriver_linux64.zip
+        wget -N https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chrome-linux64.zip
         unzip chromedriver_linux64.zip -d /usr/local/bin/
         chmod +x /usr/local/bin/chromedriver
         rm chromedriver_linux64.zip
