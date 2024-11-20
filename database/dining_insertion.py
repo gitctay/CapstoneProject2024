@@ -45,7 +45,7 @@ def add_dummy_data():
     dining_data_table.insert_many([item, item2, item3])
 
 def query_food_hall_data():
-    food_hall_data = dining_data_table.find().limit(5)
+    food_hall_data = dining_data_table.find()
     food_hall_list = []
     for parking in food_hall_data:
         food_hall_list.append({
