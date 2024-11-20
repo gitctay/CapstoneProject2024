@@ -59,7 +59,7 @@ def run_event_collection():
                 event_date = event.find_element(By.XPATH, "(.//p[@class='em-card_event-text'])[1]").text.strip()
                 # all of the event-meeting data tags are located in the second index.
                 event_meeting = find_element_casual(event, By.XPATH, './/p[@class="em-card_event-text"][2]')
-                event_recurring = find_element_casual(event,By.XPATH,"//div[@class='recurring'][p]")
+                event_recurring = find_element_casual(event,By.XPATH,".//div[@class='recurring'][p]")
 
                 if event_recurring is not None:
                     event_recurring = True
