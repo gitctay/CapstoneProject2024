@@ -48,3 +48,7 @@ def load_site():
 
 def test_parking_run():
     assert load_site() == True
+
+
+if __name__ == '__main__':
+    load_site()
