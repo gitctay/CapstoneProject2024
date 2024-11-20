@@ -4,9 +4,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from database.parking_insertion import insert_parking_data
+from selenium.webdriver.chrome.options import Options
 
 MAIN_SITE = "https://parkingavailability.charlotte.edu/"
-driver = Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = Chrome(options=chrome_options)
 wait_for_element = WebDriverWait(driver, 10)
 
 
