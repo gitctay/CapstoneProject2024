@@ -617,7 +617,10 @@ class MyBot(commands.Cog):
         # Check last scrapped
         success = await event_last_scrapped_data(ctx)
         if not success:
-            await ctx.send("Could not complete event scraping. Please try again later.")
+            await ctx.send("Last scrape event time is empty, rescraping....")
+            scrape = await event_empty_scrapping(ctx)
+            if scrape:
+                await ctx.send("Scraping complete. Please send command again to check new events.")
             return  # Exit the command if scraping fails
 
         # Main logic for events
