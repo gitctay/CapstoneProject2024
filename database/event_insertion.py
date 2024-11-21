@@ -1,6 +1,6 @@
 # Get the database using the method we defined in pymongo_test_insert file
 from database.pymongo_get_database import get_database
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 dbname = get_database()
 event_data_table = dbname["event_data"]
@@ -13,21 +13,12 @@ def insert_event_data(event_dict):
         "event_meeting": event_dict.get("event_meeting"),
         "event_link": event_dict.get("event_link"),
         "is_recurring": event_dict.get("is_recurring"),
-        "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(days=7)
+        "lastAddedAt": datetime.now(timezone.utc),
+        "expireAt": datetime.now(timezone.utc) + timedelta(hours=7)
     }
 
     event_data_table.insert_one(event)
     event_data_table.create_index("expireAt", expireAfterSeconds=0)
-
-# def insert_date_time():
-#     item = {
-#         "lastAddedAt": datetime.now(),
-#         "expireAt": datetime.now() + timedelta(days=7)
-#     }
-#     event_data_table.insert_one(item)
-#
-# event_data_table.create_index("expireAt", expireAfterSeconds=0)
 
 def add_dummy_data():
     item = {
@@ -56,8 +47,7 @@ def add_dummy_data():
 
 # Event Pull Method - COMPLETE
 def query_event_data():
-    events = event_data_table.find()
-
+    events = event_data_table.find() # Limit to the latest 5 events
     event_list = []
     for event in events:
         event_list.append({
@@ -65,6 +55,7 @@ def query_event_data():
             "date": event.get("event_date"),
             "meeting": event.get("event_meeting"),
             "link": event.get("event_link"),
+            "is_recurring": event.get("is_recurring"),
         })
     return event_list
 

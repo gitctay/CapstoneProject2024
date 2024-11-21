@@ -1,5 +1,5 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from database.pymongo_get_database import get_database
 
@@ -12,8 +12,8 @@ def insert_food_hall_data(food_hall_dict):
         "availability": food_hall_dict.get('availability'),
         "food_hall_name": food_hall_dict.get('food_hall_name'),
         "status": food_hall_dict.get('status'),
-        "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(minutes=30)
+        "lastAddedAt": datetime.now(timezone.utc),
+        "expireAt": datetime.now(timezone.utc) + timedelta(minutes=30)
     }
 
     dining_data_table.insert_one(item)
@@ -51,7 +51,7 @@ def query_food_hall_data():
         food_hall_list.append({
             "food_hall_name": parking.get("food_hall_name"),
             "availability": parking.get("availability"),
-            "location": parking.get("location")
+            "status": parking.get("status")
         })
     return food_hall_list
 
