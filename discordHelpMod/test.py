@@ -15,7 +15,7 @@ from database.scraping_date_insertion import insert_last_scraping_date_event, in
 from sys import argv
 
 # Define bot with command prefix and intents
-bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all(), help_command=None)
 bot_key = argv[1]
 
 async def event_last_scrapped_data(ctx):
@@ -84,6 +84,18 @@ async def event_last_scrapped_data(ctx):
 
 async def parking_last_scrapped_data(ctx):
     last_scrapped_data = query_parking_data_last_scraped()
+
+    # Check if the last_scrapped_data is empty
+    if not last_scrapped_data:
+        await ctx.send("No parking data has been scraped yet. Scraping new parking data...")
+        print("No last scrapped data found. Scraping new parking data...")
+
+        success = await parking_empty_scrapping(ctx)
+        if success:
+            await ctx.send("Scraping complete. Please send command again to check new parking data.")
+
+        return True
+
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
         current_time_plus_delta = datetime.now(timezone.utc) - timedelta(minutes=5)
@@ -436,7 +448,7 @@ class DiningDropdown(discord.ui.Select):
         response = (
             f"{status_emoji} **{hall}**\n"
             f"Status: {info['status']}\n"
-            f"Capacity: {info['capacity']}\n"
+            f"Info: {info['capacity']}\n"
         )
         await interaction.response.edit_message(content=response, view=None)
 
@@ -498,12 +510,6 @@ class DiningView(discord.ui.View):
 class MyBot(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.dining_status = {
-            "Crown Commons": {"status": "Open", "capacity": "80%", "menu": "Pizza, Salad, Burgers","hours": "7 AM - 10 PM"},
-            "SoVi Dining": {"status": "Closed", "capacity": "N/A", "menu": "Sushi, Ramen, Stir Fry","hours": "11 AM - 9 PM"},
-            "Prospector": {"status": "Open", "capacity": "70%", "menu": "Pasta, Sandwiches, Grill", "hours": "8 AM - 8 PM"},
-            "Bistro 49": {"status": "Open", "capacity": "50%", "menu": "Steak, Seafood, Vegan", "hours": "5 PM - 11 PM"}
-        }
 
     def capacity_indicator(self, capacity):
         if not capacity or capacity == "N/A":
@@ -550,11 +556,11 @@ class MyBot(commands.Cog):
 
     @commands.command()
     async def parking(self, ctx):
-        # Check last scrapped
-        success = await parking_last_scrapped_data(ctx)
-        if not success:
-            await ctx.send("Could not complete parking data scraping. Please try again later.")
-            return  # Exit the command if scraping fails
+        # # Check last scrapped
+        # success = await parking_last_scrapped_data(ctx)
+        # if not success:
+        #     await ctx.send("Could not complete parking data scraping. Please try again later.")
+        #     return  # Exit the command if scraping fails
 
         # Main logic for parking
         parking_data = query_parking_data()
@@ -578,10 +584,10 @@ class MyBot(commands.Cog):
     @commands.command()
     async def dining(self, ctx):
         # Check last scrapped
-        success = await dining_last_scrapped_data(ctx)
-        if not success:
-            await ctx.send("Could not complete dining data scraping. Please try again later.")
-            return  # Exit the command if scraping fails
+        # success = await dining_last_scrapped_data(ctx)
+        # if not success:
+        #     await ctx.send("Could not complete dining data scraping. Please try again later.")
+        #     return  # Exit the command if scraping fails
 
         #Main logic for dining
         dining_data = query_food_hall_data()
@@ -611,7 +617,10 @@ class MyBot(commands.Cog):
         # Check last scrapped
         success = await event_last_scrapped_data(ctx)
         if not success:
-            await ctx.send("Could not complete event scraping. Please try again later.")
+            await ctx.send("Last scrape event time is empty, rescraping....")
+            scrape = await event_empty_scrapping(ctx)
+            if scrape:
+                await ctx.send("Scraping complete. Please send command again to check new events.")
             return  # Exit the command if scraping fails
 
         # Main logic for events
@@ -634,6 +643,31 @@ class MyBot(commands.Cog):
             embed.add_field(name=event_title, value=event_description, inline=False)
 
         await ctx.send(embed=embed, view=view)
+
+    @commands.command(name="help")
+    async def custom_help(self, ctx):
+        """Custom help command to override the default one."""
+        embed = discord.Embed(title="Help", description="Available Commands:", color=0x00ff00)
+
+        # Add command descriptions
+        embed.add_field(
+            name="!dining",
+            value="Displays the dining hall status, including capacity, menu, and hours.",
+            inline=False
+        )
+        embed.add_field(
+            name="!parking",
+            value="Shows the current parking deck capacities and availability.",
+            inline=False
+        )
+        embed.add_field(
+            name="!events",
+            value="Lists upcoming events with pagination to navigate through them.",
+            inline=False
+        )
+
+        # Send the embed
+        await ctx.send(embed=embed)
 
 bot.add_cog(MyBot(bot))
 
