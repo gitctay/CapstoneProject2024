@@ -4,7 +4,7 @@ import sys
 import asyncio
 from pathlib import Path
 import pathlib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from discord.ext import commands
 from database.event_insertion import query_event_data
 from database.parking_insertion import query_parking_data
@@ -22,7 +22,7 @@ async def event_last_scrapped_data(ctx):
     last_scrapped_data = query_event_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["event_last_scraping_date"])
-        current_time_plus_delta = datetime.now() + timedelta(hours=7)
+        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(hours=7)
 
         if last_scrapped_time > current_time_plus_delta:
             # Data is outdated
@@ -86,7 +86,7 @@ async def parking_last_scrapped_data(ctx):
     last_scrapped_data = query_parking_data_last_scraped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
-        current_time_plus_delta = datetime.now() + timedelta(minutes=5)
+        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(minutes=5)
 
         # Data is outdated
         if last_scrapped_time > current_time_plus_delta:
@@ -149,7 +149,7 @@ async def dining_last_scrapped_data(ctx):
     last_scrapped_data = query_dining_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["dinning_last_scraping_date"])
-        current_time_plus_delta = datetime.now() + timedelta(minutes=30)
+        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(minutes=30)
 
         # Data is outdated
         if last_scrapped_time > current_time_plus_delta:

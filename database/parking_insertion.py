@@ -1,5 +1,5 @@
 # Get the database using the method we defined in pymongo_test_insert file
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from database.pymongo_get_database import get_database
 
@@ -10,8 +10,8 @@ def insert_parking_data(parking_dict):
     item = {
         "parking_name": parking_dict.get("parking_name"),
         "availability": parking_dict.get("availability"),
-        "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(hours=7)
+        "lastAddedAt": datetime.now(timezone.utc),
+        "expireAt": datetime.now(timezone.utc) + timedelta(minutes=5)
     }
 
     parking_data_table.insert_one(item)
