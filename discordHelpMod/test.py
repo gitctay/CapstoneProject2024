@@ -15,7 +15,7 @@ from database.scraping_date_insertion import insert_last_scraping_date_event, in
 from sys import argv
 
 # Define bot with command prefix and intents
-bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='!', intents=discord.Intents.all(), help_command=None)
 bot_key = argv[1]
 
 async def event_last_scrapped_data(ctx):
@@ -640,6 +640,31 @@ class MyBot(commands.Cog):
             embed.add_field(name=event_title, value=event_description, inline=False)
 
         await ctx.send(embed=embed, view=view)
+
+    @commands.command(name="help")
+    async def custom_help(self, ctx):
+        """Custom help command to override the default one."""
+        embed = discord.Embed(title="Help", description="Available Commands:", color=0x00ff00)
+
+        # Add command descriptions
+        embed.add_field(
+            name="!dining",
+            value="Displays the dining hall status, including capacity, menu, and hours.",
+            inline=False
+        )
+        embed.add_field(
+            name="!parking",
+            value="Shows the current parking deck capacities and availability.",
+            inline=False
+        )
+        embed.add_field(
+            name="!events",
+            value="Lists upcoming events with pagination to navigate through them.",
+            inline=False
+        )
+
+        # Send the embed
+        await ctx.send(embed=embed)
 
 bot.add_cog(MyBot(bot))
 
