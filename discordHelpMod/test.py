@@ -577,7 +577,7 @@ class MyBot(commands.Cog):
             parking_name = parking.get("parking_name", "Unknown")
             availability = parking.get("availability", "N/A")
             availability_emoji = self.parking_capacity_indicator(availability + "%")
-            parking_status_message += f"{availability_emoji} {parking_name}: {availability}%\n"
+            parking_status_message += f"{availability_emoji} {parking_name}: {availability}\n"
 
         await ctx.send(parking_status_message)
 
