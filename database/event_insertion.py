@@ -14,7 +14,7 @@ def insert_event_data(event_dict):
         "event_link": event_dict.get("event_link"),
         "is_recurring": event_dict.get("is_recurring"),
         "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(days=7)
+        "expireAt": datetime.now() + timedelta(hours=7)
     }
 
     event_data_table.insert_one(event)
@@ -56,8 +56,7 @@ def add_dummy_data():
 
 # Event Pull Method - COMPLETE
 def query_event_data():
-    events = event_data_table.find().limit(5)  # Limit to the latest 5 events
-
+    events = event_data_table.find() # Limit to the latest 5 events
     event_list = []
     for event in events:
         event_list.append({
@@ -65,6 +64,7 @@ def query_event_data():
             "date": event.get("event_date"),
             "meeting": event.get("event_meeting"),
             "link": event.get("event_link"),
+            "is_recurring": event.get("is_recurring"),
         })
     return event_list
 

@@ -11,7 +11,7 @@ def insert_parking_data(parking_dict):
         "parking_name": parking_dict.get("parking_name"),
         "availability": parking_dict.get("availability"),
         "lastAddedAt": datetime.now(),
-        "expireAt": datetime.now() + timedelta(minutes=5)
+        "expireAt": datetime.now() + timedelta(hours=7)
     }
 
     parking_data_table.insert_one(item)
