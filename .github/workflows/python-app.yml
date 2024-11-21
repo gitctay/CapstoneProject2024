@@ -11,21 +11,48 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the repository
     - uses: actions/checkout@v4
+
+    # Set up Python 3.12
     - name: Set up Python 3.12
       uses: actions/setup-python@v3
       with:
         python-version: "3.12.5"
+
+    # Install dependencies
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install pipenv
         pipenv sync
         if [ -f requirements.txt ]; then pipenv install -r requirements.txt; fi
+
+    # Install Google Chrome
+    - name: Install Google Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    # Install ChromeDriver for Selenium
+    - name: Install ChromeDriver
+      run: |
+        current_dir=$(pwd)
+        wget -N https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.85/linux64/chromedriver-linux64.zip
+        cd $current_dir
+        echo 'ls'
+        unzip chromedriver-linux64.zip -d /usr/local/bin/
+        chmod +x /usr/local/bin/chromedriver-linux64
+        rm chromedriver-linux64.zip
+
+    # Set ChromeDriver path for Selenium
+    - name: Set ChromeDriver Path
+      run: echo 'export PATH=$PATH:/usr/local/bin' >> $GITHUB_ENV
+
+    # Run tests with pytest (including Selenium tests)
     - name: Test with pytest
       run: |
-        PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run pytest test/test.py
+        PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run pytest ./test/test.py --maxfail=5 --disable-warnings

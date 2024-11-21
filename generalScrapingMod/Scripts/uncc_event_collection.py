@@ -33,6 +33,8 @@ def run_event_collection():
     global driver
     chrome_options = Options()
     chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
     is_last_page = False
     logger = log_setup('event_collection_log.txt')
     driver = Chrome(options=chrome_options)

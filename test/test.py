@@ -1,5 +1,9 @@
-from generalScrapingMod.Scripts.uncc_event_collection import run_event_collection
+from generalScrapingMod.Scripts.uncc_event_collection import test_event_collect
+from generalScrapingMod.Scripts.dining_availability import test_dining_scrape
+from generalScrapingMod.Scripts.parking_availability import test_parking_run
 
-def test_event_collection():
-    assert run_event_collection() == True
+
+test_parking_run()
+test_dining_scrape()
+test_event_collect()
 

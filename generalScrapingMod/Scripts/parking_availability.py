@@ -4,12 +4,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from database.parking_insertion import insert_parking_data
+from selenium.webdriver.chrome.options import Options
 
 MAIN_SITE = "https://parkingavailability.charlotte.edu/"
-driver = Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-dev-shm-usage")
+driver = Chrome(options=chrome_options)
 wait_for_element = WebDriverWait(driver, 10)
-
-
 def load_site():
     try:
         driver.get(MAIN_SITE)
@@ -37,9 +40,15 @@ def load_site():
                 print(f"Availability: {event_per_text} \n")
             except Exception as ex:
                 print(ex)
+    print("Scraping completed.")
+    return True
 
-    print("Scraping completed.")  # Signal the bot to continue
 
-if __name__ == "__main__":
+
+
+def test_parking_run():
+    assert load_site() == True
+
+
+if __name__ == '__main__':
     load_site()
-    driver.quit()
