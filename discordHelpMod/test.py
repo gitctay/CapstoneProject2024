@@ -22,9 +22,9 @@ async def event_last_scrapped_data(ctx):
     last_scrapped_data = query_event_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["event_last_scraping_date"])
-        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(hours=7)
+        current_time_plus_delta = datetime.now(timezone.utc) - timedelta(hours=7)
 
-        if last_scrapped_time > current_time_plus_delta:
+        if last_scrapped_time < current_time_plus_delta:
             # Data is outdated
             await ctx.send("Scraping new event data...")
             print("scraping new event data...")
@@ -86,10 +86,10 @@ async def parking_last_scrapped_data(ctx):
     last_scrapped_data = query_parking_data_last_scraped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["parking_last_scraping_date"])
-        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(minutes=5)
+        current_time_plus_delta = datetime.now(timezone.utc) - timedelta(minutes=5)
 
         # Data is outdated
-        if last_scrapped_time > current_time_plus_delta:
+        if last_scrapped_time < current_time_plus_delta:
             await ctx.send("Scraping new parking data...")
             print("Scraping new parking data...")
 
@@ -149,10 +149,10 @@ async def dining_last_scrapped_data(ctx):
     last_scrapped_data = query_dining_data_last_scrapped()
     for data in last_scrapped_data:
         last_scrapped_time = datetime.fromisoformat(data["dinning_last_scraping_date"])
-        current_time_plus_delta = datetime.now(timezone.utc) + timedelta(minutes=30)
+        current_time_plus_delta = datetime.now(timezone.utc) - timedelta(minutes=30)
 
         # Data is outdated
-        if last_scrapped_time > current_time_plus_delta:
+        if last_scrapped_time < current_time_plus_delta:
             await ctx.send("Scraping new dining data...")
             print("Scraping new dining data...")
 
