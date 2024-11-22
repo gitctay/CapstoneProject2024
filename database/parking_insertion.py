@@ -60,7 +60,7 @@ def update_parking_data():
     print(f"Matched {result.matched_count} documents and modified {result.modified_count} documents")
 
 def delete_parking_data(parking_dict):
-    parking_data_table.delete_one({"parking_name": parking_dict.event_title})
+    parking_data_table.delete_one({"parking_name": parking_dict.get("parking_name")})
 
 if __name__ == "__main__":
     filter_dict = {"parking_name": "test"}
