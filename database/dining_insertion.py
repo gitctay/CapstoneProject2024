@@ -24,25 +24,6 @@ test_insrt = {
         "availability": "availability",
         "status": "status",
 }
-def add_dummy_data():
-    item = {
-        "food_hall_name": "food_hall_name",
-        "capacity": "capacity",
-        "hours": "hours",
-        "menu": "menu",
-        "status": "status",
-    }
-    item2 = {
-        "food_hall_name": "test_delete",
-        "availability": "50",
-        "location": "Student Union",
-    }
-    item3 = {
-        "food_hall_name": "test_update",
-        "availability": "50",
-        "location": "Student Union",
-    }
-    dining_data_table.insert_many([item, item2, item3])
 
 def query_food_hall_data():
     food_hall_data = dining_data_table.find()
@@ -73,13 +54,12 @@ def update_food_hall_data():
     print(f"Matched {result.matched_count} documents and modified {result.modified_count} documents")
 
 def delete_food_hall_data(food_hall_dict):
-    dining_data_table.delete_one({"food_hall_name": food_hall_dict.event_title})
+    dining_data_table.delete_one({"food_hall_name": food_hall_dict.get("food_hall_name")})
 
 if __name__ == "__main__":
     filter_dict = {"food_hall_name": "test"}
     update_dict = {"$set": {"food_hall_name": "new title"}}
     insert_food_hall_data(test_insrt)
-    add_dummy_data()
     query_food_hall_data()
     # delete_food_hall_data(event_dict)
     update_food_hall_data()
