@@ -73,7 +73,7 @@ def update_food_hall_data():
     print(f"Matched {result.matched_count} documents and modified {result.modified_count} documents")
 
 def delete_food_hall_data(food_hall_dict):
-    dining_data_table.delete_one({"food_hall_name": food_hall_dict.event_title})
+    dining_data_table.delete_one({"food_hall_name": food_hall_dict.get("food_hall_name")})
 
 if __name__ == "__main__":
     filter_dict = {"food_hall_name": "test"}
