@@ -17,21 +17,6 @@ def insert_parking_data(parking_dict):
     parking_data_table.insert_one(item)
     parking_data_table.create_index("expireAt", expireAfterSeconds=0)
 
-def add_dummy_data():
-    item = {
-        "parking_name": "East Deck",
-        "availability": "50",
-    }
-    item2 = {
-        "parking_name": "test_delete",
-        "availability": "50",
-    }
-    item3 = {
-        "parking_name": "test_update",
-        "availability": "50",
-    }
-    parking_data_table.insert_many([item, item2, item3])
-
 def query_parking_data():
     parking_data = parking_data_table.find()
     parking_list = []
@@ -65,7 +50,6 @@ def delete_parking_data(parking_dict):
 if __name__ == "__main__":
     filter_dict = {"parking_name": "test"}
     update_dict = {"$set": {"parking_name": "new title"}}
-    add_dummy_data()
     query_parking_data()
     # delete_parking_data(event_dict)
     update_parking_data()
