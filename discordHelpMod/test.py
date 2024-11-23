@@ -531,7 +531,7 @@ class MyBot(commands.Cog):
         cap_int = int(capacity.strip('%'))
         if cap_int <= 10:
             return "🟥"
-        elif 11 <= cap_int <= 30:
+        elif 11 <= cap_int <= 35:
             return "🟨"
         else:
             return "🟩"
