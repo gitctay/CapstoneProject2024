@@ -103,12 +103,12 @@ def test_last_updated(database):
         insert_last_scraping_date_dinning()
         query_result = query_dining_data_last_scrapped()
         size_val = query_result.__sizeof__()
-        assert size_val == 24
+        assert size_val == 16
         insert_last_scraping_date_dinning()
         query_result = query_event_data_last_scrapped()
         size_val = query_result.__sizeof__()
-        assert size_val == 24
+        assert size_val == 16
         insert_last_scraping_date_parking()
         query_result = query_parking_data_last_scraped()
         size_val = query_result.__sizeof__()
-        assert size_val == 24
+        assert size_val == 16
